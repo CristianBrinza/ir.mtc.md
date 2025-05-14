@@ -1,0 +1,13 @@
+.block {
+  width: 100%;
+  display: flex;
+  padding: 70px 0;
+  align-items: center;
+  justify-content: center;
+}
+.block_inside {
+  padding: 0 60px;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1340px;
+}

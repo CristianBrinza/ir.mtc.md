@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:400,300,600,700,800');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  position: relative;
+}
+
+:root {
+  font-family: Inter, serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+
+  color-scheme: light dark;
+  color: #222;
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --theme_primary_color_black: #222;
+  --theme_primary_color_white: #ffffff;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #1d1d1f;
+    background-color: #ffffff;
+  }
+}
+
+/* Dark Mode Specific Styles */
+:root.dark-mode {
+  color: #ffffff;
+  background-color: #222;
+
+  --theme_primary_color_black: #ffffff;
+  --theme_primary_color_white: #222;
+}
+
+.title {
+  color: #222;
+  font-family: 'Poppins';
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px; /* 120% */
+  margin-bottom: 10px;
+}
+.text {
+}
