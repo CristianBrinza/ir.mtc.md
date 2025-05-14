@@ -7,13 +7,43 @@ import 'slick-carousel/slick/slick-theme.css';
 import Footer from '../../components/footer/Footer.tsx';
 import Button from '../../components/Button.tsx';
 export default function Home() {
-  const settings_carousell = {
+  const settings_carousell_1 = {
     dots: false,
     infinite: true,
     arrows: false,
     autoplay: false,
     autoplaySpeed: 4500,
     slidesToShow: 4,
+    slidesToScroll: 1,
+
+    responsive: [
+      {
+        breakpoint: 1300,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 951,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 651,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
+  };
+  const settings_carousell_2 = {
+    dots: false,
+    infinite: true,
+    arrows: false,
+    autoplay: false,
+    autoplaySpeed: 4500,
+    slidesToShow: 3,
     slidesToScroll: 1,
 
     responsive: [
@@ -73,7 +103,7 @@ export default function Home() {
         </div>
 
         <Slider
-          {...settings_carousell}
+          {...settings_carousell_1}
           className={`${styles.home_carousel_1} mtc_carousell`}
         >
           <div className={styles.home_carousel_1_card}>
@@ -138,6 +168,116 @@ export default function Home() {
               >
                 See more details
               </a>
+            </div>
+          </div>
+        </Slider>
+      </Block>
+      <div className={styles.home_full_block}>
+        <div className={styles.home_full_block_inside}>
+          <div className="title">Financial Information & Materials</div>
+          <div className="text">
+            Transparent insights into Moldtelecom’s financial results,
+            strategies, and investor updates
+          </div>
+        </div>
+      </div>
+      <Block>
+        <div className="title_2">Us in numbers</div>
+        <div className={styles.home_us_in_numbers}>
+          <div className={styles.home_us_in_numbers_card}>
+            <div className={styles.home_us_in_numbers_title}>
+              4.592.000 <span style={{ fontSize: '20px' }}>MDL</span>
+            </div>
+            <div className={styles.home_us_in_numbers_subtitle}>
+              Total assets 12M 2024
+            </div>
+          </div>
+          <div className={styles.home_us_in_numbers_card}>
+            <div className={styles.home_us_in_numbers_title}>18.0%</div>
+            <div className={styles.home_us_in_numbers_subtitle}>
+              ROE 12M 2024
+            </div>
+          </div>
+          <div className={styles.home_us_in_numbers_card}>
+            <div className={styles.home_us_in_numbers_title}>20.6%</div>
+            <div className={styles.home_us_in_numbers_subtitle}>
+              CAR Ratio 12M 2024
+            </div>
+          </div>
+          <div className={styles.home_us_in_numbers_card}>
+            <div className={styles.home_us_in_numbers_title}>1.7%</div>
+            <div className={styles.home_us_in_numbers_subtitle}>
+              NPL ratio 12M 2024
+            </div>
+          </div>
+          <div className={styles.home_us_in_numbers_card}>
+            <div className={styles.home_us_in_numbers_title}>
+              1.329.000 <span style={{ fontSize: '20px' }}>MDL</span>
+            </div>
+            <div className={styles.home_us_in_numbers_subtitle}>
+              Total profit 12M 2024
+            </div>
+          </div>
+        </div>
+      </Block>
+      <Block>
+        <div className="title_2">Latest news</div>
+        <Slider
+          {...settings_carousell_2}
+          className={`${styles.home_carousel_2} mtc_carousell`}
+        >
+          <div className={`${styles.home_carousel_2_card}`}>
+            <div className={`${styles.home_carousel_2_card_inside}`}>
+              <img
+                src="/images/67534731.png"
+                alt="Moldtelecom"
+                className={`${styles.home_carousel_2_card_inside_img}`}
+              />
+              <div className={styles.home_carousel_2_card_inside_pretitle}>
+                Reports
+              </div>
+              <div className={styles.home_carousel_2_card_inside_title}>
+                Uploaded Financial Reports for 2024
+              </div>
+              <div className={styles.home_carousel_2_card_inside_subtitle}>
+                Updated February 12, 2025
+              </div>
+            </div>
+          </div>
+          <div className={`${styles.home_carousel_2_card}`}>
+            <div className={`${styles.home_carousel_2_card_inside}`}>
+              <img
+                src="/images/67534731.png"
+                alt="Moldtelecom"
+                className={`${styles.home_carousel_2_card_inside_img}`}
+              />
+              <div className={styles.home_carousel_2_card_inside_pretitle}>
+                Announcements
+              </div>
+              <div className={styles.home_carousel_2_card_inside_title}>
+                Moldtelecom Investors Annual General Meeting 2025
+              </div>
+              <div className={styles.home_carousel_2_card_inside_subtitle}>
+                Updated May 18, 2024
+              </div>
+            </div>
+          </div>
+          <div className={`${styles.home_carousel_2_card}`}>
+            <div className={`${styles.home_carousel_2_card_inside}`}>
+              <img
+                src="/images/67534731.png"
+                alt="Moldtelecom"
+                className={`${styles.home_carousel_2_card_inside_img}`}
+              />
+              <div className={styles.home_carousel_2_card_inside_pretitle}>
+                Support
+              </div>
+              <div className={styles.home_carousel_2_card_inside_title}>
+                Update in new “Terms and Conditions”
+              </div>
+              <div className={styles.home_carousel_2_card_inside_subtitle}>
+                Updated June 1, 2023
+              </div>
             </div>
           </div>
         </Slider>

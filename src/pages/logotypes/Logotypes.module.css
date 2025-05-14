@@ -1,0 +1,18 @@
+.main_logo_img {
+  width: 100%;
+  max-width: 1100px;
+}
+.logotypes_btns {
+  display: flex;
+  gap: 5px;
+  margin-top: 2px;
+}
+.main_logo_img_2 {
+  width: 100%;
+  max-width: 400px;
+}
+.logotypes_variations {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}

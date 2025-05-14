@@ -90,3 +90,102 @@
   line-height: 24px; /* 133.333% */
   max-width: 500px;
 }
+.home_full_block {
+  width: calc(100% - 40px);
+  margin: 20px 20px 20px;
+  border-radius: 24px;
+  background: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home_full_block_inside {
+  padding: 60px;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1340px;
+}
+.home_us_in_numbers {
+  margin-top: 60px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  align-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.home_us_in_numbers_card {
+  display: flex;
+  width: 320px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0px;
+  flex-shrink: 0;
+}
+.home_us_in_numbers_title {
+  color: #212a55;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px; /* 83.333% */
+}
+.home_us_in_numbers_subtitle {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+.home_carousel_2_card_inside {
+  display: flex;
+  width: 400px;
+  height: 430px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.home_carousel_2_card_inside_img {
+  width: 100%;
+  border-radius: 24px 24px 0px 0px;
+}
+.home_carousel_2 {
+  width: 100%;
+  margin: 20px 0 10px;
+}
+.home_carousel_2_card_inside_pretitle {
+  display: flex;
+  padding: 10px 0px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  color: #5f6368;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 114.286% */
+  letter-spacing: 0.28px;
+  text-transform: uppercase;
+  text-align: left;
+}
+.home_carousel_2_card_inside_title {
+  color: #000;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px; /* 142.857% */
+  width: 380px;
+}
+.home_carousel_2_card_inside_subtitle {
+  color: #3c4043;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}

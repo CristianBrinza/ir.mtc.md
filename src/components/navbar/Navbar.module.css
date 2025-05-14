@@ -87,6 +87,7 @@
   font-weight: 500;
   line-height: 16px; /* 100% */
   cursor: pointer;
+  text-decoration: none;
 }
 .navbar_submenu {
   position: absolute;

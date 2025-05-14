@@ -1,0 +1,37 @@
+.blocks_in_line {
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.blocks_in_line_card {
+  border-radius: 20px;
+  background: #f8f9fa;
+  width: 100%;
+  max-width: 400px;
+  height: 200px;
+  gap: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.blocks_in_line_card_title {
+  color: #333;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 133.333% */
+  margin-top: 10px;
+}
+.blocks_in_line_card_subtitle {
+  color: #333;
+  text-align: center;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px; /* 140% */
+}

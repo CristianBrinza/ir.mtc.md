@@ -1,0 +1,31 @@
+.directors_title {
+  margin-top: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #c5c5c5;
+  width: 100%;
+}
+.directors_img {
+  margin-top: 20px;
+  width: 280px;
+  border-radius: 10px;
+}
+.directors_name {
+  color: #222;
+  font-family: Poppins;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  margin: 5px 0 0;
+}
+.directors_position {
+  font-size: 16px;
+  color: #d2e3fc;
+}
+.directors_list {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}

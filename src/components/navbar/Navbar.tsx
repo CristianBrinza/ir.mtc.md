@@ -242,8 +242,13 @@ const Navbar: React.FC = () => {
               >
                 Investors
               </div>
-              <div className={styles.navbar_menu_item}>News and Events</div>
-              <div className={styles.navbar_menu_item}>
+              <Link to={'/news'} className={styles.navbar_menu_item}>
+                News and Events
+              </Link>
+              <div
+                className={styles.navbar_menu_item}
+                onClick={() => toggleMenu('menu_3')}
+              >
                 Sustainability and governance
               </div>
             </div>
@@ -326,16 +331,19 @@ const Navbar: React.FC = () => {
               <div className={styles.navbar_submenu_inside_title}>
                 Who We Are
               </div>
-              <Link className={styles.navbar_submenu_inside_link} to="">
-                Our Values{' '}
+              <Link className={styles.navbar_submenu_inside_link} to="/values">
+                Our Values
               </Link>
-              <Link className={styles.navbar_submenu_inside_link} to="">
+              <Link
+                className={styles.navbar_submenu_inside_link}
+                to="/mision-vision"
+              >
                 Mision & Vision
               </Link>
               <Link className={styles.navbar_submenu_inside_link} to="">
                 History & Timeline
               </Link>
-              <Link className={styles.navbar_submenu_inside_link} to="">
+              <Link className={styles.navbar_submenu_inside_link} to="/awards">
                 Awards
               </Link>
             </div>
@@ -370,7 +378,6 @@ const Navbar: React.FC = () => {
           </div>
         </div>
       )}
-
       {activeMenu === 'menu_2' && (
         <div
           className={`${styles.navbar_submenu} ${styles.navbar_bottom_menu_option_submenu_show}`}
@@ -389,7 +396,112 @@ const Navbar: React.FC = () => {
             }
           }}
         >
-          <div className={styles.navbar_submenu_inside}>bbb</div>
+          <div className={styles.navbar_submenu_inside}>
+            <div className={styles.navbar_submenu_inside_list}>
+              <div className={styles.navbar_submenu_inside_title}>
+                Financial information
+              </div>
+              <Link className={styles.navbar_submenu_inside_link} to="">
+                Kay performance indicators
+              </Link>
+              <Link className={styles.navbar_submenu_inside_link} to="">
+                Presentations
+              </Link>
+              <Link className={styles.navbar_submenu_inside_link} to="">
+                Reports{' '}
+                <span style={{ fontSize: '10px' }}>
+                  (Anual, Q & Semestrial)
+                </span>
+              </Link>
+              <Link className={styles.navbar_submenu_inside_link} to="">
+                Us in numbers
+              </Link>
+            </div>
+            <div className={styles.navbar_submenu_inside_list}>
+              <div className={styles.navbar_submenu_inside_title}>
+                For Investors
+              </div>
+              <Link className={styles.navbar_submenu_inside_link} to="">
+                Investor Calendar
+              </Link>
+              <Link className={styles.navbar_submenu_inside_link} to="">
+                Press and media
+              </Link>
+            </div>
+          </div>
+        </div>
+      )}
+      {activeMenu === 'menu_3' && (
+        <div
+          className={`${styles.navbar_submenu} ${styles.navbar_bottom_menu_option_submenu_show}`}
+          onMouseEnter={() => {
+            if (hideTimerRef.current) {
+              clearTimeout(hideTimerRef.current);
+              hideTimerRef.current = null;
+            }
+            if (!lockedMenu) setActiveMenu('menu_3');
+          }}
+          onMouseLeave={() => {
+            if (!lockedMenu) {
+              hideTimerRef.current = setTimeout(() => {
+                setActiveMenu(null);
+              }, 300);
+            }
+          }}
+        >
+          <div className={styles.navbar_submenu_inside}>
+            <div className={styles.navbar_submenu_inside_list}>
+              <div className={styles.navbar_submenu_inside_title}>
+                Governance
+              </div>
+              <Link
+                className={styles.navbar_submenu_inside_link}
+                to="/directors"
+              >
+                Directors & Administration
+              </Link>
+              <Link className={styles.navbar_submenu_inside_link} to="">
+                Auditors
+              </Link>
+              <Link className={styles.navbar_submenu_inside_link} to="">
+                Organization structure
+              </Link>
+              <Link className={styles.navbar_submenu_inside_link} to="">
+                Society consul
+              </Link>
+            </div>
+            <div className={styles.navbar_submenu_inside_list}>
+              <div className={styles.navbar_submenu_inside_title}>
+                Materials
+              </div>
+              <Link
+                className={styles.navbar_submenu_inside_link}
+                to="/logotypes"
+              >
+                Logotypes
+              </Link>
+              <Link className={styles.navbar_submenu_inside_link} to="">
+                Brandbook
+              </Link>
+              <Link className={styles.navbar_submenu_inside_link} to="">
+                Ethical code
+              </Link>
+            </div>
+            <div className={styles.navbar_submenu_inside_list}>
+              <div className={styles.navbar_submenu_inside_title}>
+                Sustainability
+              </div>
+              <Link className={styles.navbar_submenu_inside_link} to="">
+                Environment
+              </Link>
+              <Link className={styles.navbar_submenu_inside_link} to="">
+                Projects
+              </Link>
+              <Link className={styles.navbar_submenu_inside_link} to="">
+                ESG reports
+              </Link>
+            </div>
+          </div>
         </div>
       )}
     </>
