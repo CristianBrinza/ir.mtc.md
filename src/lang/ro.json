@@ -1,0 +1,10 @@
+{
+  "lang": "ro",
+  "navbar": {
+    "romanian": "Română",
+    "english": "Engleză",
+    "russian": "Rusă",
+    "internet_tv": "Internet + TV",
+    "mobil": "Mobil"
+  }
+}
