@@ -5,6 +5,7 @@ import Awards from './pages/awards/Awards.tsx';
 import Values from './pages/values/Values.tsx';
 import Directors from './pages/directors/Directors.tsx';
 import Logotypes from './pages/logotypes/Logotypes.tsx';
+import Strategy from './pages/strategy/Strategy.tsx';
 
 export interface RouteConfig {
   path: string;
@@ -38,5 +39,10 @@ export const routesConfig: RouteConfig[] = [
     path: '/:lang/logotypes',
     i18nKey: 'home.title',
     element: React.createElement(Logotypes),
+  },
+  {
+    path: '/:lang/strategy',
+    i18nKey: 'home.title',
+    element: React.createElement(Strategy),
   },
 ];

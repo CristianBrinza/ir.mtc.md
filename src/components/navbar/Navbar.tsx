@@ -351,8 +351,11 @@ const Navbar: React.FC = () => {
               <div className={styles.navbar_submenu_inside_title}>
                 What We Do
               </div>
-              <Link className={styles.navbar_submenu_inside_link} to="">
-                Strategy & Positioning{' '}
+              <Link
+                className={styles.navbar_submenu_inside_link}
+                to="/strategy"
+              >
+                Strategy & Positioning
               </Link>
               <Link className={styles.navbar_submenu_inside_link} to="">
                 Products & Services
