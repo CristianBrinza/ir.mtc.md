@@ -157,22 +157,44 @@ export default function Home() {
       <Block>
         <div className="title_2">{t('home.numbers.title')}</div>
         <div className={styles.home_us_in_numbers}>
-          {[
-            { value: '4.592.000 MDL', label: t('home.numbers.assets') },
-            { value: '18.0%', label: t('home.numbers.roe') },
-            { value: '20.6%', label: t('home.numbers.car') },
-            { value: '1.7%', label: t('home.numbers.npl') },
-            { value: '1.329.000 MDL', label: t('home.numbers.profit') },
-          ].map((item, index) => (
-            <div key={index} className={styles.home_us_in_numbers_card}>
-              <div className={styles.home_us_in_numbers_title}>
-                {item.value}
-              </div>
-              <div className={styles.home_us_in_numbers_subtitle}>
-                {item.label}
-              </div>
+          <div className={styles.home_us_in_numbers_card}>
+            <div className={styles.home_us_in_numbers_title}>
+              4.592.000<span style={{ fontSize: '20px' }}>MDL</span>
             </div>
-          ))}
+            <div className={styles.home_us_in_numbers_subtitle}>
+              {t('home.numbers.assets')}
+            </div>
+          </div>
+
+          <div className={styles.home_us_in_numbers_card}>
+            <div className={styles.home_us_in_numbers_title}>18.0%</div>
+            <div className={styles.home_us_in_numbers_subtitle}>
+              {t('home.numbers.roe')}
+            </div>
+          </div>
+
+          <div className={styles.home_us_in_numbers_card}>
+            <div className={styles.home_us_in_numbers_title}>20.6%</div>
+            <div className={styles.home_us_in_numbers_subtitle}>
+              {t('home.numbers.car')}
+            </div>
+          </div>
+
+          <div className={styles.home_us_in_numbers_card}>
+            <div className={styles.home_us_in_numbers_title}>1.7%</div>
+            <div className={styles.home_us_in_numbers_subtitle}>
+              {t('home.numbers.npl')}
+            </div>
+          </div>
+
+          <div className={styles.home_us_in_numbers_card}>
+            <div className={styles.home_us_in_numbers_title}>
+              1.329.000<span style={{ fontSize: '20px' }}>MDL</span>
+            </div>
+            <div className={styles.home_us_in_numbers_subtitle}>
+              {t('home.numbers.profit')}
+            </div>
+          </div>
         </div>
       </Block>
 
