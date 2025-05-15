@@ -8,6 +8,7 @@ import i18n from './i18n.tsx';
 
 import { routesConfig } from './routesConfig.tsx';
 import ScrollToTop from './components/ScrollToTop.tsx';
+import DynamicPages from './components/DynamicPages/DynamicPages.tsx';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path="/" element={<Navigate to="/ro" replace />} />
             <Route path="/" element={<Home />} />
             <Route path="/:lang/" element={<Home />} />
+            <Route path="/*" element={<DynamicPages />} />
             <Route path="*" element={<NotFound />} />
 
             {routesConfig.map((route, index) => (

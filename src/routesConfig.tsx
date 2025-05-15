@@ -6,6 +6,8 @@ import Values from './pages/values/Values.tsx';
 import Directors from './pages/directors/Directors.tsx';
 import Logotypes from './pages/logotypes/Logotypes.tsx';
 import Strategy from './pages/strategy/Strategy.tsx';
+import News from './pages/news/News.tsx';
+import Faq from './pages/faq/Faq.tsx';
 
 export interface RouteConfig {
   path: string;
@@ -44,5 +46,15 @@ export const routesConfig: RouteConfig[] = [
     path: '/:lang/strategy',
     i18nKey: 'home.title',
     element: React.createElement(Strategy),
+  },
+  {
+    path: '/:lang/news',
+    i18nKey: 'home.title',
+    element: React.createElement(News),
+  },
+  {
+    path: '/:lang/faq',
+    i18nKey: 'home.title',
+    element: React.createElement(Faq),
   },
 ];
