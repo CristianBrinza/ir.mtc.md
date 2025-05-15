@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "image": "/images/97910701.png",
+    "pretitle": "News",
+    "title_en": "Moldtelecom Launches Speedtest.net Server",
+    "title_ro": "Moldtelecom lansează serverul Speedtest.net",
+    "title_ru": "Moldtelecom запускает сервер Speedtest.net",
+    "subtitle": "Updated June 1, 2023",
+    "link": "/news/moldtelecom-launches-speedtest"
+  },
+  {
+    "id": 2,
+    "image": "/images/97910701.png",
+    "pretitle": "News",
+    "title_ro": "Moldtelecom investește în viitorul conectivității: licențe noi pentru frecvențele 700 și 900 MHz",
+    "title_en": "Moldtelecom Invests in the Future of Connectivity: New Licenses for 700 and 900 MHz Bands",
+    "title_ru": "Moldtelecom инвестирует в будущее связи: новые лицензии на диапазоны 700 и 900 МГц",
+    "subtitle": "Published September 15, 2023",
+    "link": "/news/moldtelecom-licenses-700-900mhz"
+  }
+]

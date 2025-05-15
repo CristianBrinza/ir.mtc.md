@@ -1,0 +1,96 @@
+[
+  {
+    "id": "menu_1",
+    "label": "navbar.aboutus",
+    "submenu": [
+      {
+        "title": "navbar.who_we_are",
+        "items": [
+          { "label": "navbar.our_values", "to": "/values" },
+          { "label": "navbar.mission_vision", "to": "/mision-vision" },
+          { "label": "navbar.history_timeline", "to": "" },
+          { "label": "navbar.awards", "to": "/awards" }
+        ]
+      },
+      {
+        "title": "navbar.what_we_do",
+        "items": [
+          { "label": "navbar.strategy_positioning", "to": "/strategy" },
+          { "label": "navbar.products_services", "to": "" },
+          { "label": "navbar.sustainability", "to": "" }
+        ]
+      },
+      {
+        "title": "navbar.how_we_operate",
+        "items": [
+          { "label": "navbar.code_conduct", "to": "" },
+          { "label": "navbar.partnerships", "to": "" },
+          { "label": "navbar.contact_us", "to": "" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "menu_2",
+    "label": "navbar.investors",
+    "submenu": [
+      {
+        "title": "navbar.financial_info",
+        "items": [
+          { "label": "navbar.kpi", "to": "" },
+          { "label": "navbar.presentations", "to": "" },
+          { "label": "navbar.reports", "to": "" },
+          { "label": "navbar.in_numbers", "to": "" }
+        ]
+      },
+      {
+        "title": "navbar.for_investors",
+        "items": [
+          { "label": "navbar.calendar", "to": "" },
+          { "label": "navbar.press", "to": "" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "news",
+    "label": "navbar.news",
+    "to": "/news"
+  },
+  {
+    "id": "menu_3",
+    "label": "navbar.sus_gov",
+    "submenu": [
+      {
+        "title": "navbar.governance",
+        "items": [
+          { "label": "navbar.directors_admin", "to": "/directors" },
+          { "label": "navbar.auditors", "to": "" },
+          { "label": "navbar.org_structure", "to": "" },
+          { "label": "navbar.society_consul", "to": "" }
+        ]
+      },
+      {
+        "title": "navbar.materials",
+        "items": [
+          { "label": "navbar.logotypes", "to": "/logotypes" },
+          { "label": "navbar.brandbook", "to": "" },
+          { "label": "navbar.ethical_code", "to": "" }
+        ]
+      },
+      {
+        "title": "navbar.sustainability",
+        "items": [
+          { "label": "navbar.environment", "to": "" },
+          { "label": "navbar.projects", "to": "" },
+          { "label": "navbar.esg_reports", "to": "" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "faq",
+    "label": "navbar.faq",
+    "to": "/faq"
+  }
+]
