@@ -53,7 +53,9 @@
     "about": "Despre noi",
     "awards": "Premii",
     "mission_vision": "Misiune & Viziune",
-    "contact": "Contactează-ne"
+    "contact": "Contactează-ne",
+    "strategy": "Strategie",
+    "history": "Istoric"
   },
   "values": {
     "title": "Valorile noastre",
@@ -241,5 +243,25 @@
         "subtitle": "Actualizat pe 1 iunie 2023"
       }
     }
+  },
+  "history": {
+    "launch_title_1": "Realizările Tehnologice și Inovațiile",
+    "launch_title_2": " Moldtelecom",
+    "timeline": {
+      "y2025": "Lansarea \\b Internetului de 2.1 Gbps \\b – cea mai rapidă conexiune din Moldova.",
+      "y2024": "Lansarea serviciilor \\b eSIMplu \\b și \\b One Number \\b – care simplifică comunicarea mobilă.",
+      "y2023": "Lansarea aplicației \\b Moldtelecom TV \\b, \\b Cinematografului Megogo \\b, chatbot-ului și programului de loialitate.",
+      "y2022": "Prima companie care oferă echipamente \\b Wi-Fi 6 \\b.\\nLansarea aplicației \\b My Moldtelecom \\b și a facturii electronice. Rețeaua GPON extinsă în 11 localități.",
+      "y2021": "Rețeaua GPON extinsă în 102 localități.\\nParteneriat strategic cu Deutsche Telekom Global. Obținerea certificării \\b ISO 9001:2015 \\b.",
+      "y2019_2020": "Lansarea \\b laboratorului tehnologiilor 5G \\b.\\nFinalizarea acoperirii \\b LTE Advanced (4G+) \\b în toate centrele raionale și alte 53 de localități.",
+      "y2016_2018": "Lansarea serviciilor \\b Smart TV \\b, \\b CloudCamera \\b și \\b Multiscreen \\b, îmbunătățind experiența utilizatorilor.",
+      "y2015": "Lansarea rețelei mobile \\b Unité LTE 4G+ \\b cu viteze de până la 175 Mbps.",
+      "y2010_2013": "Lansarea primului serviciu de televiziune digitală interactivă \\b IPTV \\b din Moldova. \\nIntroducerea serviciilor \\b Arhiva TV \\b și \\b MEGOGO \\b.",
+      "y2008": "Lansarea \\b MaxFiber \\b și extinderea rețelei de fibră optică \\b FTTx \\b cu viteze superioare de internet.",
+      "y2007": "Lansarea serviciului de telefonie mobilă \\b Unité \\b, devenind al treilea operator mobil din țară.",
+      "y2001_2004": "Lansarea primului serviciu de \\b internet dial-up \\b, urmat de serviciul \\b MaxDSL \\b prin tehnologia ADSL."
+    },
+    "lansare": "Lansarea și primele etape",
+    "beginnings": "Începuturi"
   }
 }

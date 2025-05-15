@@ -95,7 +95,7 @@ const Navbar: React.FC = () => {
             <a href="mailto:ir@moldtelecom.md"> ir@moldtelecom.md</a>
           </div>
           <div className={styles.navbar_inside_bottom}>
-            <Link to={'/'}>
+            <Link className={styles.navbar_inside_bottom_home_logo} to={'/'}>
               <svg
                 width="218"
                 height="44"

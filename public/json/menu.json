@@ -8,7 +8,7 @@
         "items": [
           { "label": "navbar.our_values", "to": "/values" },
           { "label": "navbar.mission_vision", "to": "/mision-vision" },
-          { "label": "navbar.history_timeline", "to": "" },
+          { "label": "navbar.history_timeline", "to": "/history" },
           { "label": "navbar.awards", "to": "/awards" }
         ]
       },

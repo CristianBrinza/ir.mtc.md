@@ -9,6 +9,8 @@ import Strategy from './pages/strategy/Strategy.tsx';
 import News from './pages/news/News.tsx';
 import Faq from './pages/faq/Faq.tsx';
 import Contact from './pages/contact/Contact.tsx';
+import About from './pages/about/About.tsx';
+import History from './pages/history/History.tsx';
 
 export interface RouteConfig {
   path: string;
@@ -16,6 +18,7 @@ export interface RouteConfig {
   element: React.ReactNode;
 }
 
+// @ts-ignore
 export const routesConfig: RouteConfig[] = [
   // { path: '/', i18nKey: 'home.title', element: React.createElement(Values) },
   {
@@ -62,5 +65,15 @@ export const routesConfig: RouteConfig[] = [
     path: '/:lang/contact',
     i18nKey: 'home.title',
     element: React.createElement(Contact),
+  },
+  {
+    path: '/:lang/about',
+    i18nKey: 'home.title',
+    element: React.createElement(About),
+  },
+  {
+    path: '/:lang/history',
+    i18nKey: 'home.title',
+    element: React.createElement(History),
   },
 ];

@@ -195,3 +195,6 @@
   transform: translateY(0);
   pointer-events: all;
 }
+.navbar_inside_bottom_home_logo {
+  cursor: pointer;
+}

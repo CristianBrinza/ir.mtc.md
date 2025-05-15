@@ -53,7 +53,9 @@
     "about": "About us",
     "awards": "Awards",
     "mission_vision": "Mission & Vision",
-    "contact": "Contact us"
+    "contact": "Contact us",
+    "strategy": "Strategy",
+    "history": "History"
   },
   "values": {
     "title": "Our Values",
@@ -238,5 +240,25 @@
         "subtitle": "Updated June 1, 2023"
       }
     }
+  },
+  "history": {
+    "launch_title_1": "Moldtelecom Technological Achievements",
+    "launch_title_2": " and Innovations",
+    "timeline": {
+      "y2025": "Launch of \\b 2.1 Gbps \\b Internet – the fastest connection in Moldova.",
+      "y2024": "Launch of \\b eSIMplu \\b and \\b One Number \\b services – simplifying mobile communication.",
+      "y2023": "Launch of \\b Moldtelecom TV \\b app, \\b Megogo Cinema \\b, chatbot, and loyalty program.",
+      "y2022": "First company to offer \\b Wi-Fi 6 \\b equipment.\\nLaunch of \\b My Moldtelecom \\b app and electronic billing. GPON network expanded to 11 localities.",
+      "y2021": "GPON network expanded to 102 localities.\\nStrategic partnership with Deutsche Telekom Global. \\b ISO 9001:2015 \\b certification obtained.",
+      "y2019_2020": "Launch of the \\b 5G tech lab \\b.\\nCompletion of \\b LTE Advanced (4G+) \\b coverage in all district centers and 53 more localities.",
+      "y2016_2018": "Launch of \\b Smart TV \\b, \\b CloudCamera \\b, and \\b Multiscreen \\b services, enhancing user experience.",
+      "y2015": "Launch of \\b Unité LTE 4G+ \\b mobile network with speeds up to 175 Mbps.",
+      "y2010_2013": "Launch of the first interactive digital TV \\b IPTV \\b in Moldova. \\n Introduction of \\b TV Archive \\b and \\b MEGOGO \\b services.",
+      "y2008": "Launch of \\b MaxFiber \\b and expansion of \\b FTTx fiber optic network \\b with superior internet speeds.",
+      "y2007": "Launch of \\b Unité mobile telephony \\b service, becoming the third mobile operator in the country.",
+      "y2001_2004": "Launch of the first \\b dial-up internet \\b service, followed by \\b MaxDSL broadband \\b via ADSL."
+    },
+    "lansare": "Launch and Early Milestones",
+    "beginnings": "Beginnings"
   }
 }
