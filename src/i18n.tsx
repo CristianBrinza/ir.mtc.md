@@ -25,8 +25,8 @@ i18next
   .use(initReactI18next)
   .init({
     resources,
-    lng: localStorage.getItem('i18nextLng') || 'ro', // Load from localStorage or default to 'ro'
-    fallbackLng: 'ro',
+    lng: localStorage.getItem('i18nextLng') || 'en', // Load from localStorage or default to 'ro'
+    fallbackLng: 'en',
     interpolation: {
       escapeValue: false,
     },

@@ -5,32 +5,34 @@ import Block from '../../components/block/Block.tsx';
 import Footer from '../../components/footer/Footer.tsx';
 import styles from './Logotypes.module.css';
 import Button from '../../components/Button.tsx';
+import { useTranslation } from 'react-i18next';
 
 export default function Logotypes() {
+  const { t } = useTranslation();
+
   const breadcrumbItems = [
-    { label: 'Materials', url: ' ' },
-    { label: 'Logotypes ' },
+    { label: t('breadcrumb.materials'), url: ' ' },
+    { label: t('breadcrumb.logotypes') },
   ];
+
   return (
     <>
       <Navbar />
       <Breadcrumb items={breadcrumbItems} max_width={1180} />
-      <Hero title="Logotypes " />
+      <Hero title={t('logotypes.hero')} />
 
       <Block>
         <div className="text" style={{ maxWidth: '1050px' }}>
-          <b>Moldtelecom</b>’s visual identity reflects our commitment to
-          innovation, reliability, and connection. To maintain brand consistency
-          across all channels, we provide official logotypes and usage
-          guidelines for partners, affiliates, and the media.
+          <b>Moldtelecom</b> {t('logotypes.description')}
         </div>
       </Block>
+
       <Block>
         <div
           className="title"
           style={{ maxWidth: '1050px', marginTop: '-60px' }}
         >
-          Main Logo
+          {t('logotypes.main_logo')}
         </div>
         <img
           className={styles.main_logo_img}
@@ -38,110 +40,63 @@ export default function Logotypes() {
           alt="Moldtelecom"
         />
         <div className={styles.logotypes_btns}>
-          <Button border={'#E0E0E0'} hover_bgcolor={'#E0E0E0'}>
-            Downlaod SVG
+          <Button border="#E0E0E0" hover_bgcolor="#E0E0E0">
+            {t('logotypes.download_svg')}
           </Button>
-          <Button border={'#E0E0E0'} hover_bgcolor={'#E0E0E0'}>
-            Downlaod PNG
+          <Button border="#E0E0E0" hover_bgcolor="#E0E0E0">
+            {t('logotypes.download_png')}
           </Button>
         </div>
       </Block>
+
       <Block>
         <div
           className="title_2"
           style={{ maxWidth: '1050px', marginTop: '-60px' }}
         >
-          Logo Variations
+          {t('logotypes.variations')}
         </div>
         <div className={styles.logotypes_variations}>
-          <div>
-            <img
-              className={styles.main_logo_img_2}
-              src="/images/47933756.png"
-              alt="Moldtelecom"
-            />
-            <div className={styles.logotypes_btns}>
-              <Button border={'#E0E0E0'} hover_bgcolor={'#E0E0E0'}>
-                Downlaod SVG
-              </Button>
-              <Button border={'#E0E0E0'} hover_bgcolor={'#E0E0E0'}>
-                Downlaod PNG
-              </Button>
+          {['47933756', '56534765', '67903701', '47930701'].map(img => (
+            <div key={img}>
+              <img
+                className={styles.main_logo_img_2}
+                src={`/images/${img}.png`}
+                alt="Moldtelecom"
+              />
+              <div className={styles.logotypes_btns}>
+                <Button border="#E0E0E0" hover_bgcolor="#E0E0E0">
+                  {t('logotypes.download_svg')}
+                </Button>
+                <Button border="#E0E0E0" hover_bgcolor="#E0E0E0">
+                  {t('logotypes.download_png')}
+                </Button>
+              </div>
             </div>
-          </div>
-          <div>
-            <img
-              className={styles.main_logo_img_2}
-              src="/images/56534765.png"
-              alt="Moldtelecom"
-            />
-            <div className={styles.logotypes_btns}>
-              <Button border={'#E0E0E0'} hover_bgcolor={'#E0E0E0'}>
-                Downlaod SVG
-              </Button>
-              <Button border={'#E0E0E0'} hover_bgcolor={'#E0E0E0'}>
-                Downlaod PNG
-              </Button>
-            </div>
-          </div>
-          <div>
-            <img
-              className={styles.main_logo_img_2}
-              src="/images/67903701.png"
-              alt="Moldtelecom"
-            />
-            <div className={styles.logotypes_btns}>
-              <Button border={'#E0E0E0'} hover_bgcolor={'#E0E0E0'}>
-                Downlaod SVG
-              </Button>
-              <Button border={'#E0E0E0'} hover_bgcolor={'#E0E0E0'}>
-                Downlaod PNG
-              </Button>
-            </div>
-          </div>
-          <div>
-            <img
-              className={styles.main_logo_img_2}
-              src="/images/47930701.png"
-              alt="Moldtelecom"
-            />
-            <div className={styles.logotypes_btns}>
-              <Button border={'#E0E0E0'} hover_bgcolor={'#E0E0E0'}>
-                Downlaod SVG
-              </Button>
-              <Button border={'#E0E0E0'} hover_bgcolor={'#E0E0E0'}>
-                Downlaod PNG
-              </Button>
-            </div>
-          </div>
+          ))}
         </div>
       </Block>
 
       <Block>
         <div className="text" style={{ maxWidth: '1050px' }}>
           <div className="title_2" style={{ maxWidth: '1050px' }}>
-            Brand Usage Guidelines
+            {t('logotypes.guidelines.title')}
           </div>
-          To preserve the integrity of the Moldtelecom brand, please follow
-          these basic usage rules:
+          {t('logotypes.guidelines.intro')}
           <br />
           <ul>
-            <li>Do not alter or distort the logo in any way;</li>
-            <li>Maintain sufficient clear space around the logo;</li>
-            <li>Use only the official versions provided;</li>
-            <li>Avoid placing the logo on visually complex backgrounds;</li>
-            <li>
-              For co-branded projects, obtain approval from Moldtelecom’s brand
-              team;
-            </li>
+            <li>{t('logotypes.guidelines.item1')}</li>
+            <li>{t('logotypes.guidelines.item2')}</li>
+            <li>{t('logotypes.guidelines.item3')}</li>
+            <li>{t('logotypes.guidelines.item4')}</li>
+            <li>{t('logotypes.guidelines.item5')}</li>
           </ul>
-          For the full branding manual and inquiries regarding custom use,
-          please contact us at <br />
+          {t('logotypes.guidelines.contact')} <br />
           <a
-            href="mailto: marketing@moldtelecom.md"
+            href="mailto:marketing@moldtelecom.md"
             style={{ color: '#174ea6' }}
           >
-            marketing@moldtelecom.md{' '}
+            marketing@moldtelecom.md
           </a>
         </div>
       </Block>

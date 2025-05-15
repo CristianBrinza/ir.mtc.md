@@ -26,7 +26,7 @@
     "financial_info": "Financial Information",
     "kpi": "Key Performance Indicators",
     "presentations": "Presentations",
-    "reports": "Reports (Annual, Q & Semestrial)",
+    "reports": "Reports",
     "in_numbers": "Us in Numbers",
     "for_investors": "For Investors",
     "calendar": "Investor Calendar",
@@ -47,7 +47,13 @@
   },
   "breadcrumb": {
     "home": "Home",
-    "news": "News"
+    "news": "News",
+    "materials": "Materials",
+    "logotypes": "Logotypes",
+    "about": "About us",
+    "awards": "Awards",
+    "mission_vision": "Mission & Vision",
+    "contact": "Contact us"
   },
   "values": {
     "title": "Our Values",
@@ -95,6 +101,142 @@
     "faq": "FAQ",
     "contact": "Contact",
     "newsletter": "Newsletter"
+  },
+  "logotypes": {
+    "hero": "Logotypes",
+    "description": "’s visual identity reflects our commitment to innovation, reliability, and connection. To maintain brand consistency across all channels, we provide official logotypes and usage guidelines for partners, affiliates, and the media.",
+    "main_logo": "Main Logo",
+    "variations": "Logo Variations",
+    "download_svg": "Download SVG",
+    "download_png": "Download PNG",
+    "guidelines": {
+      "title": "Brand Usage Guidelines",
+      "intro": "To preserve the integrity of the Moldtelecom brand, please follow these basic usage rules:",
+      "item1": "Do not alter or distort the logo in any way;",
+      "item2": "Maintain sufficient clear space around the logo;",
+      "item3": "Use only the official versions provided;",
+      "item4": "Avoid placing the logo on visually complex backgrounds;",
+      "item5": "For co-branded projects, obtain approval from Moldtelecom’s brand team;",
+      "contact": "For the full branding manual and inquiries regarding custom use, please contact us at"
+    }
+  },
+  "awards": {
+    "hero_title": "Our Awards",
+    "card_1_title": "Commercial Brand of the Year 2022",
+    "card_1_text": "In 2020, Moldtelecom had a positive evolution in the context of the electronic communications market in the Republic of Moldova.",
+    "card_1_list": [
+      "Moldtelecom successfully completed both stages of the LTE Advanced network expansion plan:",
+      "The only operator to record revenue and market share growth in Q3 2020 compared to Q3 2019 in mobile telephony",
+      "Maintains leadership in the fixed internet market",
+      "Market leader in IPTV service revenues",
+      "MyMoldtelecom app reached 46,470 users, with 114% growth"
+    ],
+    "card_1_conclusion": "In terms of revenues from mobile telephony services, they increased by 1.5%, and market share rose by 0.6 percentage points, making it the only operator to register revenue and market share growth in Q3 2020 compared to Q3 2019.",
+    "card_2_title": "Commercial Brand of the Year 2022",
+    "card_2_text": "Moldtelecom maintains its market-leading position in IPTV revenue.",
+    "card_2_desc": "Fixed internet services are provided in over 1200 localities across the country, with approximately 65% already covered by fiber. In the first 8 months of the current year, the company expanded fiber presence to over 80 localities. Thus, over 15,000 clients gained connectivity, and by the end of the year, another 170 localities and around 40,000 clients will benefit from fixed internet services with speeds up to 1 Gbps. Moldtelecom is the driver of the country's digital life. With over 27 years of experience, the company has developed the most advanced fiber optic network, over 18,000 km long — 10 times faster than any other in the country — and which will be available nationwide in the next 3 years.",
+    "card_3_title": "Leader in Portability 2023",
+    "card_3_text": "For the second consecutive year, Moldtelecom is the leader in the number of mobile phone subscribers who chose to port.",
+    "card_3_desc": "According to data from the National Agency for Regulation in Electronic Communications and Information Technology (ANRCETI), 91,075 mobile and fixed phone numbers were ported to other networks in 2022, an increase of over 5% compared to 2021. Most mobile numbers (37.2%) were received into Moldtelecom's network."
+  },
+  "mission_vision": {
+    "hero_title": "Mission & Vision",
+    "vision_title": "Moldtelecom’s Vision",
+    "vision_text": "To become the undisputed leader of the telecommunications market in Moldova through technological innovation, superior quality services, and a modern brand image that inspires trust. We aim to transform Moldtelecom into a benchmark brand characterized by authenticity, transparent communication, and a strong relationship with our customers, significantly contributing to the digitization and development of Moldovan society. \n\nInternational Positioning: Placing Moldova among the countries with modern and accessible technologies for all citizens.",
+    "mission_title": "Moldtelecom’s Mission",
+    "mission_text": "We connect people through high-quality telecommunications services by offering innovative, secure, and accessible solutions that improve daily life and support Moldova’s digital development. \n\nWe are committed to delivering authentic, reliable, and easy-to-access experiences while strengthening our position in the following strategic directions:",
+    "card_1_title": "Superior Experience",
+    "card_1_subtitle": "Decisions driven by customer feedback",
+    "card_2_title": "First Choice",
+    "card_2_subtitle": "No. 1 for telecom services",
+    "card_3_title": "Social Impact",
+    "card_3_subtitle": "Contributing to well-being and digital transformation"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "intro": "If you have any questions, inquiries, or need support, please reach out to us using the information below.",
+    "hours_title": "Office Hours:",
+    "hours": "Monday – Friday, 09:00 – 18:00",
+    "email_title": "Email:",
+    "phone_title": "Phone:",
+    "address_title": "Address:",
+    "address": "1 Stefan cel Mare Blvd, Chișinău, Moldova"
+  },
+  "strategy": {
+    "hero_title": "Strategy",
+    "vision_title": "Strategic Vision",
+    "vision_text": "Moldtelecom defines its strategic direction through innovation, excellence, and customer proximity. Our company’s vision reflects our commitment to Moldova’s digitalization and the consolidation of an indisputable leadership position.",
+    "pillars_title": "The Three Pillars of Moldtelecom's Strategy",
+    "pillars_text": "Our strategy is developed together with our customers and employees to transform Moldtelecom into a company where real customer voices influence decisions.",
+    "pillar_1_title": "Sustainable Development of Long-Term Relationships",
+    "pillar_1_subtitle": "Building lasting connections with our customers",
+    "pillar_2_title": "Implementation Based on Real Feedback",
+    "pillar_2_subtitle": "Decisions driven by customer input",
+    "pillar_3_title": "Education and Direct Dialogue with Users",
+    "pillar_3_subtitle": "Transparent and personalized communication",
+    "positioning_title": "Positioning on the Telecom Market",
+    "positioning_text": "To strengthen Moldtelecom’s position as a market leader in telecommunications in Moldova, we’ve developed a clear and ambitious strategy that reflects our vision for the future.",
+    "advantage_title": "Integrated Competitive Advantage",
+    "advantage_text": "We leverage our unique position as a full-service operator, offering comprehensive telecom solutions for all our customers' needs.",
+    "quality_title": "Superior Price-Quality Ratio",
+    "quality_text": "We continuously develop convergent packages with exceptional benefits, ensuring the best value for our customers' investment in telecom services.",
+    "innovation_title": "Continuous Technological Innovation",
+    "innovation_text": "We accelerate the implementation of next-generation technologies, both in the fixed segment and in the development of national 5G infrastructure.",
+    "experience_title": "Personalized Customer Experience",
+    "experience_text": "We create an intuitive and personalized digital ecosystem, focusing on customer loyalty and exclusive services that reflect our commitment to excellence."
+  },
+  "home": {
+    "hero": {
+      "pretitle": "Moldtelecom publishes",
+      "title_line1": "Annual",
+      "title_line2": "Report 2024",
+      "subtitle": "Investor Relations provides relevant and reliable information.",
+      "button": "See more"
+    },
+    "financial": {
+      "title": "Financial information",
+      "description": "Investor Relations provides relevant and reliable information about the financial performance of Moldtelecom S.A. to the financial markets and other external stakeholders."
+    },
+    "carousel1": {
+      "card_title_1": "News\n& Events",
+      "card_subtitle_1": "Stay informed with the latest announcements, updates, and milestones from Moldtelecom.",
+      "card_title_2": "Reports\n& Presentations",
+      "card_subtitle_2": "Browse official financial reports, investor materials, and strategic presentations.",
+      "card_title_3": "About\nUs",
+      "card_subtitle_3": "Learn about Moldtelecom’s history, values, mission, and leadership team.",
+      "card_title_4": "Corporate\nGovernance",
+      "card_subtitle_4": "Discover our governance structure, policies, and ethical commitments.",
+      "card_link": "See more details"
+    },
+    "materials": {
+      "title": "Financial Information & Materials",
+      "description": "Transparent insights into Moldtelecom’s financial results, strategies, and investor updates"
+    },
+    "numbers": {
+      "title": "Us in numbers",
+      "assets": "Total assets 12M 2024",
+      "roe": "ROE 12M 2024",
+      "car": "CAR Ratio 12M 2024",
+      "npl": "NPL ratio 12M 2024",
+      "profit": "Total profit 12M 2024"
+    },
+    "latest_news": {
+      "title": "Latest news",
+      "report": {
+        "pretitle": "Reports",
+        "title": "Uploaded Financial Reports for 2024",
+        "subtitle": "Updated February 12, 2025"
+      },
+      "agm": {
+        "pretitle": "Announcements",
+        "title": "Moldtelecom Investors Annual General Meeting 2025",
+        "subtitle": "Updated May 18, 2024"
+      },
+      "terms": {
+        "pretitle": "Support",
+        "title": "Update in new “Terms and Conditions”",
+        "subtitle": "Updated June 1, 2023"
+      }
+    }
   }
-
 }

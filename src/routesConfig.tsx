@@ -8,6 +8,7 @@ import Logotypes from './pages/logotypes/Logotypes.tsx';
 import Strategy from './pages/strategy/Strategy.tsx';
 import News from './pages/news/News.tsx';
 import Faq from './pages/faq/Faq.tsx';
+import Contact from './pages/contact/Contact.tsx';
 
 export interface RouteConfig {
   path: string;
@@ -56,5 +57,10 @@ export const routesConfig: RouteConfig[] = [
     path: '/:lang/faq',
     i18nKey: 'home.title',
     element: React.createElement(Faq),
+  },
+  {
+    path: '/:lang/contact',
+    i18nKey: 'home.title',
+    element: React.createElement(Contact),
   },
 ];

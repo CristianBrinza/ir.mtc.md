@@ -4,48 +4,31 @@ import Block from '../../components/block/Block.tsx';
 import styles from './MisionVision.module.css';
 import Footer from '../../components/footer/Footer.tsx';
 import Breadcrumb from '../../components/Breadcrumb/Breadcrumb.tsx';
+import { t } from 'i18next';
 
 export default function MisionVision() {
   const breadcrumbItems = [
-    { label: 'About us', url: ' ' },
-    { label: 'Mision & Vision' },
+    { label: t('breadcrumb.about'), url: ' ' },
+    { label: t('breadcrumb.mission_vision') },
   ];
   return (
     <>
       <Navbar />
       <Breadcrumb items={breadcrumbItems} max_width={1180} />
-      <Hero title="Mision & Vision" />
+      <Hero title={t('mission_vision.hero_title')} />
       <Block>
-        <div className="title">Viziunea Moldtelecom</div>
+        <div className="title">{t('mission_vision.vision_title')}</div>
         <div className="text" style={{ maxWidth: '1050px' }}>
-          Să devenim liderul incontestabil al pieței de telecomunicații din
-          Moldova, prin inovație tehnologică, servicii de calitate superioară și
-          o imagine modernă care inspiră încredere.
-          <br />
-          <br />
-          Ne propunem să transformăm Moldtelecom într-un brand de referință,
-          caracterizat prin autenticitate, comunicare transparentă și o relație
-          solidă cu clienții noștri, contribuind semnificativ la digitalizarea
-          și dezvoltarea societății moldovenești.
-          <br />
-          <br />
-          <b> Poziționare internațională:</b> <br />
-          Plasarea Moldovei printre țările cu tehnologii moderne și accesibile
-          pentru toți cetățenii.
+          {t('mission_vision.vision_text')}
         </div>
       </Block>
+
       <Block>
-        <div className="title">Misiunea Moldtelecom</div>
+        <div className="title">{t('mission_vision.mission_title')}</div>
         <div className="text" style={{ maxWidth: '1050px' }}>
-          Conectăm oamenii prin servicii de telecomunicații de înaltă calitate,
-          oferind soluții inovatoare, sigure și accesibile, care îmbunătățesc
-          viața de zi cu zi și sprijină dezvoltarea digitală a Moldovei.
-          <br />
-          <br />
-          Ne angajăm să furnizăm experiențe autentice, de încredere și ușor de
-          accesat, consolidând poziția noastră în următoarele direcții
-          strategice:
+          {t('mission_vision.mission_text')}
         </div>
+
         <div className={styles.blocks_in_line}>
           <div className={styles.blocks_in_line_card}>
             <svg
@@ -73,10 +56,10 @@ export default function MisionVision() {
             </svg>
 
             <div className={styles.blocks_in_line_card_title}>
-              Experiență superioară
+              {t('mission_vision.card_1_title')}
             </div>
             <div className={styles.blocks_in_line_card_subtitle}>
-              Decizii luate pe baza opiniilor clienților
+              {t('mission_vision.card_1_subtitle')}
             </div>
           </div>
           <div className={styles.blocks_in_line_card}>
@@ -95,10 +78,10 @@ export default function MisionVision() {
             </svg>
 
             <div className={styles.blocks_in_line_card_title}>
-              Prima Alegere
+              {t('mission_vision.card_2_title')}
             </div>
             <div className={styles.blocks_in_line_card_subtitle}>
-              Nr. 1 pentru servicii de telecomunicatii
+              {t('mission_vision.card_2_subtitle')}
             </div>
           </div>
           <div className={styles.blocks_in_line_card}>
@@ -123,10 +106,10 @@ export default function MisionVision() {
             </svg>
 
             <div className={styles.blocks_in_line_card_title}>
-              Impact Social
+              {t('mission_vision.card_3_title')}
             </div>
             <div className={styles.blocks_in_line_card_subtitle}>
-              Contribuție la bunăstarea și digitalizarea societății
+              {t('mission_vision.card_3_subtitle')}
             </div>
           </div>
         </div>

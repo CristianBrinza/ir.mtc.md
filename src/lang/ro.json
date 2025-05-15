@@ -26,7 +26,7 @@
     "financial_info": "Informații financiare",
     "kpi": "Indicatori de performanță",
     "presentations": "Prezentări",
-    "reports": "Rapoarte (Anuale, Trimestriale & Semestriale)",
+    "reports": "Rapoarte ",
     "in_numbers": "Noi în cifre",
     "for_investors": "Pentru investitori",
     "calendar": "Calendar pentru investitori",
@@ -37,17 +37,23 @@
     "org_structure": "Structură organizațională",
     "society_consul": "Consiliul societății",
     "materials": "Materiale",
-    "logotypes": "Logouri",
+    "logotypes": "Logotipuri",
     "brandbook": "Manual de brand",
     "ethical_code": "Cod etic",
     "environment": "Mediu",
     "projects": "Proiecte",
     "esg_reports": "Rapoarte ESG",
-    "faq": "Întrebări frecvente"
+    "faq": "FAQ"
   },
   "breadcrumb": {
     "home": "Acasă",
-    "news": "Noutăți"
+    "news": "Noutăți",
+    "materials": "Materiale",
+    "logotypes": "Logotipuri",
+    "about": "Despre noi",
+    "awards": "Premii",
+    "mission_vision": "Misiune & Viziune",
+    "contact": "Contactează-ne"
   },
   "values": {
     "title": "Valorile noastre",
@@ -95,6 +101,145 @@
     "faq": "Întrebări frecvente",
     "contact": "Contacte",
     "newsletter": "Newsletter"
+  },
+  "logotypes": {
+    "hero": "Logotipuri",
+    "description": "reflectă angajamentul nostru față de inovație, fiabilitate și conectare. Pentru a menține coerența mărcii pe toate canalele, oferim logotipuri oficiale și ghiduri de utilizare pentru parteneri, afiliați și mass-media.",
+    "main_logo": "Logo principal",
+    "variations": "Variante de logo",
+    "download_svg": "Descarcă SVG",
+    "download_png": "Descarcă PNG",
+    "guidelines": {
+      "title": "Reguli de utilizare a brandului",
+      "intro": "Pentru a păstra integritatea brandului Moldtelecom, vă rugăm să respectați următoarele reguli:",
+      "item1": "Nu modificați sau deformați logotipul;",
+      "item2": "Păstrați spațiu liber suficient în jurul logotipului;",
+      "item3": "Folosiți doar versiunile oficiale furnizate;",
+      "item4": "Evitați plasarea logotipului pe fundaluri vizual complexe;",
+      "item5": "Pentru proiecte co-brand, solicitați aprobarea echipei de brand Moldtelecom;",
+      "contact": "Pentru manualul complet de branding și întrebări privind utilizarea personalizată, vă rugăm să ne contactați la"
+    }
+  },
+  "awards": {
+    "hero_title": "Premiile noastre",
+    "card_1_title": "„Marca Comercială a Anului 2022”",
+    "card_1_text": "În anul 2020 Moltelecom a avut o evoluție pozitivă în contextul pieții de comunicații electronice din Republica Moldova.",
+    "card_1_list": [
+      "Moldtelecom a finalizat cu succes ambele etape din planul de extindere a rețelei LTE Advanced:",
+      "Singurul operator care a înregistrat o creștere de venituri și cotă de piață în tr.3 2020 comparativ cu tr.3 2019, la telefonie mobilă",
+      "Menține poziția de lider pe piața de internet fix",
+      "Lider pe piață la capitolul venituri din serviciile de IPTV",
+      "Aplicația MyMoldtelecom a ajuns la 46470 de utilizatori, cu 114% în creștere"
+    ],
+    "card_1_conclusion": "În ce privește veniturile, aferente serviciilor de telefonie mobilă, acestea au crescut cu 1,5 %, iar cota de piață s-a majorat cu 0,6 puncte procentuale, fiind și la acest capitol singurul operator care a înregistrat o creștere de venituri și cotă de piață în Q3, 2020 comparativ cu Q3, 2019.",
+    "card_2_title": "„Marca Comercială a Anului 2022”",
+    "card_2_text": "Moldtelecom își menține poziția de lider pe piață la capitolul venituri în contextul IPTV",
+    "card_2_desc": "Serviciile de internet fix sunt prestate în peste 1200 de localități din țară, iar aproximativ 65% din ele sunt deja acoperite cu fibră optică. În primele 8 luni ale anului curent compania și-a lărgit prezența cu fibră în peste 80 localități. Astfel, peste 15 mii de clienți au avut posibilitate de conectare, iar până la sfârșitul anului curent alte 170 de localități în total și aproximativ 40 mii de clienți vor putea beneficia de servicii de Internet fix cu viteză de până la 1 Gbps. Moldtelecom este driver-ul vieții digitale din țară. În cei peste 27 ani de experiență, compania a dezvoltat cea mai avansată rețea de fibră optică, cu o lungime totală de peste 18 mii km, fiind de 10 ori mai rapidă decât oricare alta din țară și care în următorii 3 ani va fi disponibilă pe întreg teritoriul țării.",
+    "card_3_title": "Poziția de lider în portabilitate 2023",
+    "card_3_text": "Pentru al doilea an consecutiv, Moldtelecom este lider în numărul de abonați de telefonie mobilă care au decis să porteze.",
+    "card_3_desc": "Potrivit datelor prezentate de Agenţia Naţională pentru Reglementare în Comunicaţii Electronice şi Tehnologia Informaţiei (ANRCETI), 91075 de numere de telefonie mobilă și fixă au portat în alte rețele în anul 2022, în creștere cu peste 5% comparativ cu 2021. Majoritatea numerelor mobile (37,2%) au fost primite în rețeaua sa de către compania Moldtelecom."
+  },
+  "mission_vision": {
+    "hero_title": "Misiune & Viziune",
+    "vision_title": "Viziunea Moldtelecom",
+    "vision_text": "Să devenim liderul incontestabil al pieței de telecomunicații din Moldova, prin inovație tehnologică, servicii de calitate superioară și o imagine modernă care inspiră încredere. \n\nNe propunem să transformăm Moldtelecom într-un brand de referință, caracterizat prin autenticitate, comunicare transparentă și o relație solidă cu clienții noștri, contribuind semnificativ la digitalizarea și dezvoltarea societății moldovenești. \n\nPoziționare internațională: Plasarea Moldovei printre țările cu tehnologii moderne și accesibile pentru toți cetățenii.",
+    "mission_title": "Misiunea Moldtelecom",
+    "mission_text": "Conectăm oamenii prin servicii de telecomunicații de înaltă calitate, oferind soluții inovatoare, sigure și accesibile, care îmbunătățesc viața de zi cu zi și sprijină dezvoltarea digitală a Moldovei. \n\nNe angajăm să furnizăm experiențe autentice, de încredere și ușor de accesat, consolidând poziția noastră în următoarele direcții strategice:",
+    "card_1_title": "Experiență superioară",
+    "card_1_subtitle": "Decizii luate pe baza opiniilor clienților",
+    "card_2_title": "Prima Alegere",
+    "card_2_subtitle": "Nr. 1 pentru servicii de telecomunicații",
+    "card_3_title": "Impact Social",
+    "card_3_subtitle": "Contribuție la bunăstarea și digitalizarea societății"
+  },
+  "contact": {
+    "title": "Contactează-ne",
+    "intro": "Dacă ai întrebări, solicitări sau ai nevoie de suport, te rugăm să ne contactezi utilizând informațiile de mai jos.",
+    "hours_title": "Program de lucru:",
+    "hours": "Luni – Vineri, 09:00 – 18:00",
+    "email_title": "Email:",
+    "phone_title": "Telefon:",
+    "address_title": "Adresă:",
+    "address": "Bd. Ștefan cel Mare nr. 1, Chișinău, Moldova"
+  },
+  "strategy": {
+    "hero_title": "Strategie",
+    "vision_title": "Viziunea Strategică",
+    "vision_text": "Moldtelecom își definește direcția strategică prin inovație, excelență și apropiere de client. Viziunea companiei reflectă angajamentul față de digitalizarea Moldovei și consolidarea unei poziții de lider incontestabil.",
+    "pillars_title": "Cei trei piloni ai strategiei Moldtelecom",
+    "pillars_text": "Strategia noastră este dezvoltată împreună cu clienții și angajații pentru a transforma Moldtelecom într-o companie unde vocile clienților reali influențează deciziile.",
+    "pillar_1_title_1": "Dezvoltare Sustenabilă a Relațiilor",
+    "pillar_1_title_2": "de Lungă Durată",
+    "pillar_1_subtitle": "Construirea unor relații durabile cu clienții noștri",
+    "pillar_2_title_1": "Implementare Bazată pe ",
+    "pillar_2_title_2": "Feedback Real",
+    "pillar_2_subtitle": "Decizii luate pe baza opiniilor clienților",
+    "pillar_3_title_1": "Educație și Dialog Direct",
+    "pillar_3_title_2": "cu Utilizatorii",
+    "pillar_3_subtitle": "Comunicare transparentă și personalizată",
+    "positioning_title": "Poziționare pe Piața Telecom",
+    "positioning_text": "Pentru a consolida poziția Moldtelecom ca lider pe piața de telecomunicații din Moldova, am dezvoltat o strategie clară și ambițioasă care reflectă viziunea noastră pentru viitor.",
+    "advantage_title": "Avantaj competitiv integrat",
+    "advantage_text": "Valorificăm statutul nostru unic de operator cu gamă completă de servicii integrate, oferind soluții complete de telecomunicații pentru toate nevoile clienților noștri.",
+    "quality_title": "Raport calitate-preț superior",
+    "quality_text": "Dezvoltăm permanent pachete convergente cu beneficii excepționale, asigurând cea mai bună valoare pentru investiția clienților noștri în servicii de telecomunicații.",
+    "innovation_title": "Inovație tehnologică continuă",
+    "innovation_text": "Accelerăm implementarea tehnologiilor de ultimă generație, atât în segmentul fix, cât și în dezvoltarea infrastructurii mobile 5G la nivel național.",
+    "experience_title": "Experiență client personalizată",
+    "experience_text": "Creăm un ecosistem digital intuitiv și personalizat, concentrându-ne pe loialitatea clienților și oferirea de servicii exclusive care reflectă angajamentul nostru față de excelență."
+  },
+  "home": {
+    "hero": {
+      "pretitle": "Moldtelecom publică",
+      "title_line1": "Raportul",
+      "title_line2": "anual 2024",
+      "subtitle": "Relațiile cu investitorii oferă informații relevante și fiabile.",
+      "button": "Vezi mai mult"
+    },
+    "financial": {
+      "title": "Informații financiare",
+      "description": "Relațiile cu investitorii oferă informații relevante și fiabile despre performanța financiară a Moldtelecom S.A. pentru piețele financiare și alți parteneri externi."
+    },
+    "carousel1": {
+      "card_title_1": "Știri și\n Evenimente",
+      "card_subtitle_1": "Rămâi la curent cu ultimele anunțuri, actualizări și realizări ale Moldtelecom.",
+      "card_title_2": "Rapoarte\nși Prezentări",
+      "card_subtitle_2": "Accesează rapoarte financiare oficiale, materiale pentru investitori și prezentări strategice.",
+      "card_title_3": "Despre\nNoi",
+      "card_subtitle_3": "Află mai multe despre istoria, valorile, misiunea și echipa de conducere a Moldtelecom.",
+      "card_title_4": "Guvernanță\nCorporativă",
+      "card_subtitle_4": "Descoperă structura noastră de guvernanță, politicile și angajamentele etice.",
+      "card_link": "Vezi mai multe detalii"
+    },
+    "materials": {
+      "title": "Date financiare și materiale",
+      "description": "Informații transparente despre rezultatele financiare, strategiile și actualizările Moldtelecom pentru investitori"
+    },
+    "numbers": {
+      "title": "Noi în cifre",
+      "assets": "Active totale 12M 2024",
+      "roe": "ROE 12M 2024",
+      "car": "Rata CAR 12M 2024",
+      "npl": "Rata NPL 12M 2024",
+      "profit": "Profit total 12M 2024"
+    },
+    "latest_news": {
+      "title": "Ultimele noutăți",
+      "report": {
+        "pretitle": "Rapoarte",
+        "title": "Rapoartele financiare pentru 2024 au fost încărcate",
+        "subtitle": "Actualizat pe 12 februarie 2025"
+      },
+      "agm": {
+        "pretitle": "Anunțuri",
+        "title": "Adunarea Generală a Investitorilor Moldtelecom 2025",
+        "subtitle": "Actualizat pe 18 mai 2024"
+      },
+      "terms": {
+        "pretitle": "Suport",
+        "title": "Actualizare în noile „Termeni și Condiții”",
+        "subtitle": "Actualizat pe 1 iunie 2023"
+      }
+    }
   }
-
 }

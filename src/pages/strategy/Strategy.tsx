@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next';
 import Navbar from '../../components/navbar/Navbar.tsx';
 import Hero from '../../components/hero/Hero.tsx';
 import Breadcrumb from '../../components/Breadcrumb/Breadcrumb.tsx';
@@ -6,35 +7,34 @@ import Footer from '../../components/footer/Footer.tsx';
 import styles from './Strategy.module.css';
 
 export default function Strategy() {
+  const { t } = useTranslation();
+
   const breadcrumbItems = [
-    { label: 'About us', url: ' ' },
-    { label: 'Strategy' },
+    { label: t('breadcrumb.about'), url: ' ' },
+    { label: t('breadcrumb.strategy') },
   ];
+
   return (
     <>
       <Navbar />
       <Breadcrumb items={breadcrumbItems} max_width={1180} />
-      <Hero title="Strategy" />
+      <Hero title={t('strategy.hero_title')} />
 
       <Block>
         <div className="title" style={{ maxWidth: '1050px' }}>
-          Viziunea Strategică
+          {t('strategy.vision_title')}
         </div>
         <div className="text" style={{ maxWidth: '1050px' }}>
-          Moldtelecom își definește direcția strategică prin inovație, excelență
-          și apropiere de client. Viziunea companiei reflectă angajamentul față
-          de digitalizarea Moldovei și consolidarea unei poziții de lider
-          incontestabil.
+          {t('strategy.vision_text')}
         </div>
       </Block>
+
       <Block>
         <div className="title" style={{ maxWidth: '1050px' }}>
-          Cei trei piloni ai strategiei Moldtelecom
+          {t('strategy.pillars_title')}
         </div>
         <div className="text" style={{ maxWidth: '1050px' }}>
-          Strategia noastră este dezvoltată împreună cu clienții și angajații
-          pentru a transforma Moldtelecom într-o companie unde vocile clienților
-          reali influențează deciziile.
+          {t('strategy.pillars_text')}
         </div>
         <div className={styles.blocks_in_line}>
           <div className={styles.blocks_in_line_card}>
@@ -59,10 +59,11 @@ export default function Strategy() {
             </svg>
 
             <div className={styles.blocks_in_line_card_title}>
-              Dezvoltare Sustenabil a Relațiilor <br /> de Lung Durată
+              {t('strategy.pillar_1_title_1')} <br />
+              {t('strategy.pillar_1_title_2')}
             </div>
             <div className={styles.blocks_in_line_card_subtitle}>
-              Construirea unor relații durabile cu clienții noştri
+              {t('strategy.pillar_1_subtitle')}
             </div>
           </div>
           <div className={styles.blocks_in_line_card}>
@@ -92,11 +93,11 @@ export default function Strategy() {
             </svg>
 
             <div className={styles.blocks_in_line_card_title}>
-              Implementare Bazat pe <br />
-              Feedback Real
+              {t('strategy.pillar_2_title_1')} <br />
+              {t('strategy.pillar_2_title_2')}
             </div>
             <div className={styles.blocks_in_line_card_subtitle}>
-              Decizii luate pe baza opiniilor clienilor
+              {t('strategy.pillar_2_subtitle')}
             </div>
           </div>
           <div className={styles.blocks_in_line_card}>
@@ -124,11 +125,11 @@ export default function Strategy() {
             </svg>
 
             <div className={styles.blocks_in_line_card_title}>
-              Educație şi Dialog Direct <br />
-              cu Utilizatorii
+              {t('strategy.pillar_3_title_1')} <br />
+              {t('strategy.pillar_3_title_2')}
             </div>
             <div className={styles.blocks_in_line_card_subtitle}>
-              Comunicare transparent i personalizat
+              {t('strategy.pillar_3_subtitle')}
             </div>
           </div>
         </div>
@@ -138,12 +139,10 @@ export default function Strategy() {
           className="title"
           style={{ maxWidth: '1050px', marginTop: '-40px' }}
         >
-          Poziționare pe Piața Telecom
+          {t('strategy.positioning_title')}
         </div>
         <div className="text" style={{ maxWidth: '1050px' }}>
-          Pentru a consolida poziția Moldtelecom ca lider pe piața de
-          telecomunicații din Moldova, am dezvoltat o strategie clară și
-          ambițioasă care reflectă viziunea noastră pentru viitor.
+          {t('strategy.positioning_text')}
         </div>
 
         <div className={styles.strategy_list}>
@@ -179,7 +178,7 @@ export default function Strategy() {
                   />
                 </svg>
               </div>
-              <span> Avantaj competitiv integrat</span>
+              <span> {t('strategy.advantage_title')}</span>
             </div>
             <div className={styles.strategy_list_content}>
               <div className={styles.strategy_list_svg}>
@@ -191,12 +190,7 @@ export default function Strategy() {
                   xmlns="http://www.w3.org/2000/svg"
                 ></svg>
               </div>
-              <span>
-                {' '}
-                Valorificăm statutul nostru unic de operator cu gamă completă de
-                servicii integrate, oferind soluții complete de telecomunicații
-                pentru toate nevoile clienților noștri.
-              </span>
+              <span>{t('strategy.advantage_text')}</span>
             </div>
           </div>
           <div className={styles.strategy_list_item}>
@@ -223,7 +217,7 @@ export default function Strategy() {
                   />
                 </svg>
               </div>
-              <span> Raport calitate-preț superior</span>
+              <span> {t('strategy.quality_title')}</span>
             </div>
             <div className={styles.strategy_list_content}>
               <div className={styles.strategy_list_svg}>
@@ -235,12 +229,7 @@ export default function Strategy() {
                   xmlns="http://www.w3.org/2000/svg"
                 ></svg>
               </div>
-              <span>
-                {' '}
-                Dezvoltăm permanent pachete convergente cu beneficii
-                excepționale, asigurând cea mai bună valoare pentru investiția
-                clienților noștri în servicii de telecomunicații.{' '}
-              </span>
+              <span>{t('strategy.quality_text')}</span>
             </div>
           </div>
           <div className={styles.strategy_list_item}>
@@ -262,7 +251,7 @@ export default function Strategy() {
                   />
                 </svg>
               </div>
-              <span> Inovație tehnologică continuă</span>
+              <span> {t('strategy.innovation_title')}</span>
             </div>
             <div className={styles.strategy_list_content}>
               <div className={styles.strategy_list_svg}>
@@ -274,12 +263,7 @@ export default function Strategy() {
                   xmlns="http://www.w3.org/2000/svg"
                 ></svg>
               </div>
-              <span>
-                {' '}
-                Accelerăm implementarea tehnologiilor de ultimă generație, atât
-                în segmentul fix, cât și în dezvoltarea infrastructurii mobile
-                5G la nivel național.{' '}
-              </span>
+              <span>{t('strategy.innovation_text')}</span>
             </div>
           </div>
           <div className={styles.strategy_list_item}>
@@ -308,7 +292,7 @@ export default function Strategy() {
                   />
                 </svg>
               </div>
-              <span> Experiență client personalizată</span>
+              <span> {t('strategy.experience_title')}</span>
             </div>
             <div className={styles.strategy_list_content}>
               <div className={styles.strategy_list_svg}>
@@ -320,17 +304,12 @@ export default function Strategy() {
                   xmlns="http://www.w3.org/2000/svg"
                 ></svg>
               </div>
-              <span>
-                {' '}
-                Creăm un ecosistem digital intuitiv și personalizat,
-                concentrându-ne pe loialitatea clienților și oferirea de
-                servicii exclusive care reflectă angajamentul nostru față de
-                excelență.{' '}
-              </span>
+              <span>{t('strategy.experience_text')}</span>
             </div>
           </div>
         </div>
       </Block>
+
       <Footer />
     </>
   );
