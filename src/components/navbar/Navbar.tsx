@@ -487,15 +487,15 @@ const Navbar: React.FC = () => {
                                   {t(group.title)}
                                 </div>
                                 {group.items.map((sub: any, subIdx: number) => (
-                                  <Link
+                                  <a
+                                    href={sub.to}
                                     key={subIdx}
                                     className={
                                       styles.navbar_submenu_inside_link
                                     }
-                                    to={sub.to}
                                   >
                                     {t(sub.label)}
-                                  </Link>
+                                  </a>
                                 ))}
                               </div>
                             ))}

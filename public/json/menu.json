@@ -23,7 +23,10 @@
       {
         "title": "navbar.how_we_operate",
         "items": [
-          { "label": "navbar.code_conduct", "to": "" },
+          {
+            "label": "navbar.code_conduct",
+            "to": "/files/GC_Code_Moltelecom.pdf"
+          },
           { "label": "navbar.partnerships", "to": "" },
           { "label": "navbar.contact_us", "to": "" }
         ]
@@ -74,8 +77,11 @@
         "title": "navbar.materials",
         "items": [
           { "label": "navbar.logotypes", "to": "/logotypes" },
-          { "label": "navbar.brandbook", "to": "" },
-          { "label": "navbar.ethical_code", "to": "" }
+          { "label": "navbar.brandbook", "to": "/files/Brandbook.pdf" },
+          {
+            "label": "navbar.ethical_code",
+            "to": "/files/Etical_Code_Moldtelecom.pdf"
+          }
         ]
       },
       {
