@@ -36,6 +36,7 @@
   text-decoration-thickness: auto;
   text-underline-offset: auto;
   text-underline-position: from-font;
+  margin: 4px 0 -4px;
 }
 .navbar_inside_top_email {
   display: flex;
@@ -58,6 +59,11 @@
   gap: 10px;
   cursor: pointer;
   position: relative;
+}
+.navbar_inside_bottom_right a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .navbar_inside_bottom_right_lang {
   border-radius: 100px;
@@ -197,4 +203,83 @@
 }
 .navbar_inside_bottom_home_logo {
   cursor: pointer;
+}
+.navbar_inside_bottom_right_lang_text_mob {
+  display: none;
+}
+.navbar_inside_bottom_right_menu {
+  display: none;
+}
+.navbar_inside_bottom_home_logo_mob {
+  display: none;
+}
+@media (max-width: 1380px) {
+  .navbar_inside_bottom_right_menu {
+    display: block;
+  }
+  .navbar_inside_bottom_home_logo_mob {
+    display: block;
+  }
+  .navbar_inside_bottom_home_logo_desk {
+    display: none;
+  }
+  .navbar {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  .navbar_menu {
+    position: absolute;
+    display: none;
+  }
+  .navbar_inside_bottom_right_lang_icon_side {
+    display: none;
+  }
+  .navbar_inside_bottom_right_lang_text_mob {
+    display: block;
+    text-transform: uppercase;
+  }
+  .navbar_inside_bottom_right_lang_text_desk {
+    display: none;
+  }
+  .navbar_inside_bottom_right_lang {
+    padding: 8px 10px 8px 10px;
+  }
+  .navbar_menu_active_mob {
+    position: absolute;
+    background: #fff;
+    top: 94px;
+    left: 0;
+    width: 100vw;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-bottom: 1px solid #dadce0;
+    padding-bottom: 30px;
+  }
+  .navbar_submenu_inside {
+    padding: 20px 20px;
+    flex-direction: column;
+    /*background: #f1f1f1;*/
+    gap: 25px;
+    margin-left: -30px;
+  }
+  .navbar_submenu {
+    position: relative;
+    top: 10px;
+    margin-bottom: 20px;
+
+    height: auto;
+  }
+  .navbar_submenu_inside_title {
+    margin-bottom: 5px;
+  }
+  .navbar_submenu_inside_list {
+    gap: 5px;
+  }
 }

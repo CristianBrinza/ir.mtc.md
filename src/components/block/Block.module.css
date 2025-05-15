@@ -11,3 +11,8 @@
   width: 100%;
   max-width: 1340px;
 }
+@media (max-width: 1380px) {
+  .block_inside {
+    padding: 0 20px;
+  }
+}
