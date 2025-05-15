@@ -1,10 +1,100 @@
 {
   "lang": "ro",
+  "language": "Română",
   "navbar": {
     "romanian": "Română",
     "english": "Engleză",
     "russian": "Rusă",
-    "internet_tv": "Internet + TV",
-    "mobil": "Mobil"
+    "aboutus": "Despre noi",
+    "investors": "Investitori",
+    "news": "Noutăți și Evenimente",
+    "sus_gov": "Sustenabilitate și guvernanță",
+    "email_updates": "Actualizări prin email",
+    "who_we_are": "Cine suntem",
+    "our_values": "Valorile noastre",
+    "mission_vision": "Misiune și Viziune",
+    "history_timeline": "Istoric și Cronologie",
+    "awards": "Premii",
+    "what_we_do": "Ce facem",
+    "strategy_positioning": "Strategie și poziționare",
+    "products_services": "Produse și servicii",
+    "sustainability": "Sustenabilitate",
+    "how_we_operate": "Cum operăm",
+    "code_conduct": "Cod de conduită",
+    "partnerships": "Parteneriate",
+    "contact_us": "Contactați-ne",
+    "financial_info": "Informații financiare",
+    "kpi": "Indicatori de performanță",
+    "presentations": "Prezentări",
+    "reports": "Rapoarte (Anuale, Trimestriale & Semestriale)",
+    "in_numbers": "Noi în cifre",
+    "for_investors": "Pentru investitori",
+    "calendar": "Calendar pentru investitori",
+    "press": "Presă și media",
+    "governance": "Guvernanță",
+    "directors_admin": "Directori și administrație",
+    "auditors": "Auditori",
+    "org_structure": "Structură organizațională",
+    "society_consul": "Consiliul societății",
+    "materials": "Materiale",
+    "logotypes": "Logouri",
+    "brandbook": "Manual de brand",
+    "ethical_code": "Cod etic",
+    "environment": "Mediu",
+    "projects": "Proiecte",
+    "esg_reports": "Rapoarte ESG",
+    "faq": "Întrebări frecvente"
+  },
+  "breadcrumb": {
+    "home": "Acasă",
+    "news": "Noutăți"
+  },
+  "values": {
+    "title": "Valorile noastre",
+    "intro1": "Astăzi, Moldtelecom se caracterizează prin dinamism, reușind să implementeze și să dezvolte constant noi servicii de telecomunicații, răspunzând astfel cu succes nevoilor și așteptărilor consumatorilor.",
+    "intro2": "Moldtelecom este cel mai experimentat și cel mai mare operator din țară, fiind singurul care oferă întreaga gamă de servicii integrate: telefonie mobilă, telefonie fixă, internet mobil, internet fix și televiziune IPTV.",
+    "pillar_title": "Valorile Moldtelecom",
+    "pillar_intro": "Pilonii care ne ghidează fiecare decizie, construind o relație autentică cu clienții și susținând dezvoltarea digitală a Moldovei:",
+    "client_focus": {
+      "title": "Orientare către client",
+      "text": "Fiecare decizie pornește de la nevoile reale ale clienților noștri. Oferim servicii ușor de accesat, suport prompt și soluții adaptate fiecărui utilizator."
+    },
+    "innovation": {
+      "title": "Inovație continuă",
+      "text": "Investim în tehnologii de vârf și dezvoltăm constant servicii digitale care transformă modul în care oamenii comunică, lucrează și se conectează."
+    },
+    "trust": {
+      "title": "Încredere și transparență",
+      "text": "Ne respectăm promisiunile și construim parteneriate durabile prin comunicare deschisă, onestă și responsabilă."
+    },
+    "respect": {
+      "title": "Respect și implicare socială",
+      "text": "Promovăm un mediu de lucru bazat pe respect și echitate, și susținem activ inițiativele ce contribuie la dezvoltarea comunităților locale."
+    },
+    "sustainability": {
+      "title": "Sustenabilitate",
+      "text": "Ne pasă de viitorul țării. Integrăm soluții eficiente energetic și dezvoltăm servicii care reduc impactul asupra mediului."
+    },
+    "about_title": "Despre Moldtelecom",
+    "about_motto": "Conectăm Moldova. Construim viitorul digital.",
+    "about_p1": "Astăzi, Moldtelecom se remarcă prin dinamism și inovație, implementând constant noi servicii de telecomunicații care răspund nevoilor în continuă schimbare ale clienților.",
+    "about_p2": "Cu o tradiție solidă și expertiză acumulată încă din 1993, Moldtelecom este cel mai mare și mai experimentat operator din țară. Este totodată singura companie care oferă un portofoliu complet de servicii la nivel național – de la telefonie mobilă și fixă, la internet de bandă largă, televiziune digitală interactivă (IPTV), cloud, soluții B2B și servicii inteligente.",
+    "about_p3": "Pozițiile constante de top pe toate segmentele reflectă nu doar performanța operațională, ci și angajamentul nostru față de calitate, inovație și apropiere reală față de client. Moldtelecom contribuie activ la digitalizarea societății moldovenești și la dezvoltarea unei infrastructuri moderne, sigure și accesibile pentru toți."
+  },
+  "footer": {
+    "investors": "Investitori",
+    "reports": "Rapoarte",
+    "press": "Presă și media",
+    "calendar": "Calendar investitori",
+    "quick_links": "Linkuri rapide",
+    "about": "Despre noi",
+    "governance": "Guvernanță corporativă",
+    "sustainability": "Sustenabilitate",
+    "support": "Asistență",
+    "terms": "Termeni și condiții",
+    "faq": "Întrebări frecvente",
+    "contact": "Contacte",
+    "newsletter": "Newsletter"
   }
+
 }

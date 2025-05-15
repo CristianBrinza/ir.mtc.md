@@ -19,7 +19,7 @@ const Breadcrumb: React.FC<BreadcrumbProps> = ({ items, max_width }) => {
     <div className="breadcrumb" style={{ maxWidth: max_width }}>
       <Link to={`/${t('lang')}/`} className="breadcrumb-item-home">
         <svg
-          style={{ marginTop: '0px', marginBottom: '-1px' }}
+          style={{ marginTop: '-1px', marginBottom: '1px' }}
           width="19"
           height="20"
           viewBox="0 0 19 20"
@@ -33,7 +33,8 @@ const Breadcrumb: React.FC<BreadcrumbProps> = ({ items, max_width }) => {
             stroke-width="0.5"
           />
         </svg>
-        Home
+
+        {t('breadcrumb.home')}
       </Link>
       <span className="breadcrumb-separator">/</span>
 

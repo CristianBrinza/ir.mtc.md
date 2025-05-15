@@ -1,8 +1,100 @@
 {
   "lang": "en",
+  "language": "English",
   "navbar": {
     "romanian": "Romanian",
-    "english": "Enghish",
-    "russian": "Russian"
+    "english": "English",
+    "russian": "Russian",
+    "aboutus": "About us",
+    "investors": "Investors",
+    "news": "News and Events",
+    "sus_gov": "Sustainability and governance",
+    "email_updates": "Email updates",
+    "who_we_are": "Who We Are",
+    "our_values": "Our Values",
+    "mission_vision": "Mission & Vision",
+    "history_timeline": "History & Timeline",
+    "awards": "Awards",
+    "what_we_do": "What We Do",
+    "strategy_positioning": "Strategy & Positioning",
+    "products_services": "Products & Services",
+    "sustainability": "Sustainability",
+    "how_we_operate": "How We Operate",
+    "code_conduct": "Code of Conduct",
+    "partnerships": "Partnerships",
+    "contact_us": "Contact Us",
+    "financial_info": "Financial Information",
+    "kpi": "Key Performance Indicators",
+    "presentations": "Presentations",
+    "reports": "Reports (Annual, Q & Semestrial)",
+    "in_numbers": "Us in Numbers",
+    "for_investors": "For Investors",
+    "calendar": "Investor Calendar",
+    "press": "Press and Media",
+    "governance": "Governance",
+    "directors_admin": "Directors & Administration",
+    "auditors": "Auditors",
+    "org_structure": "Organization Structure",
+    "society_consul": "Society Consul",
+    "materials": "Materials",
+    "logotypes": "Logotypes",
+    "brandbook": "Brandbook",
+    "ethical_code": "Ethical Code",
+    "environment": "Environment",
+    "projects": "Projects",
+    "esg_reports": "ESG Reports",
+    "faq": "FAQ"
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "news": "News"
+  },
+  "values": {
+    "title": "Our Values",
+    "intro1": "Today, Moldtelecom is characterized by dynamism, successfully implementing and constantly developing new telecommunications services, thus responding to the needs and expectations of consumers.",
+    "intro2": "Moldtelecom is the most experienced and the largest operator in the country, being the only one that offers the full range of integrated services: mobile telephony, fixed telephony, mobile internet, fixed internet, and IPTV television.",
+    "pillar_title": "Moldtelecom Values",
+    "pillar_intro": "The pillars that guide every decision, building an authentic relationship with clients and supporting Moldova's digital development:",
+    "client_focus": {
+      "title": "Client Focus",
+      "text": "Every decision starts with the real needs of our clients. We offer easy-to-access services, prompt support, and solutions tailored to each user."
+    },
+    "innovation": {
+      "title": "Continuous Innovation",
+      "text": "We invest in cutting-edge technologies and constantly develop digital services that transform the way people communicate, work, and connect."
+    },
+    "trust": {
+      "title": "Trust and Transparency",
+      "text": "We keep our promises and build lasting partnerships through open, honest, and responsible communication."
+    },
+    "respect": {
+      "title": "Respect and Social Engagement",
+      "text": "We promote a work environment based on respect and equity, and actively support initiatives that contribute to local community development."
+    },
+    "sustainability": {
+      "title": "Sustainability",
+      "text": "We care about the country’s future. We integrate energy-efficient solutions and develop services that reduce environmental impact."
+    },
+    "about_title": "About Moldtelecom",
+    "about_motto": "Connecting Moldova. Building the digital future.",
+    "about_p1": "Today, Moldtelecom stands out through dynamism and innovation, constantly implementing new telecommunications services that respond to the evolving needs of its clients.",
+    "about_p2": "With a solid tradition and expertise since 1993, Moldtelecom is the largest and most experienced operator in the country. It is also the only company offering a full portfolio of nationwide services – from mobile and fixed telephony to broadband internet, interactive digital TV (IPTV), cloud, B2B solutions, and smart services.",
+    "about_p3": "Consistent top positions across all segments reflect not only operational performance, but also our commitment to quality, innovation, and genuine customer care. Moldtelecom actively contributes to Moldova’s digitalization and to developing a modern, secure, and accessible infrastructure for all."
+  },
+  "footer": {
+    "investors": "Investors",
+    "reports": "Reports",
+    "press": "Press and media",
+    "calendar": "Investor Calendar",
+    "quick_links": "Quick links",
+    "about": "About us",
+    "governance": "Corporate Governance",
+    "sustainability": "Sustainability",
+    "support": "Support",
+    "terms": "Terms and conditions",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "newsletter": "Newsletter"
   }
+
 }

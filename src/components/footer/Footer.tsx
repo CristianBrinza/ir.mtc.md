@@ -1,32 +1,54 @@
 import React from 'react';
 import styles from './Footer.module.css';
+import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const Footer: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <div className={styles.footer}>
       <div className={styles.footer_top}>
         <div className={styles.footer_top_inside}>
           <div className={styles.footer_top_list}>
-            <div className={styles.footer_top_title}>Investors</div>
-            <div className={styles.footer_top_list_link}>Reports</div>
-            <div className={styles.footer_top_list_link}>Press and media</div>
-            <div className={styles.footer_top_list_link}>Investor Calendar</div>
+            <div className={styles.footer_top_title}>
+              {t('footer.investors')}
+            </div>
+            <div className={styles.footer_top_list_link}>
+              {t('footer.reports')}
+            </div>
+            <div className={styles.footer_top_list_link}>
+              {t('footer.press')}
+            </div>
+            <div className={styles.footer_top_list_link}>
+              {t('footer.calendar')}
+            </div>
           </div>
           <div className={styles.footer_top_list}>
-            <div className={styles.footer_top_title}>Quick links</div>
-            <div className={styles.footer_top_list_link}>About us</div>
-            <div className={styles.footer_top_list_link}>
-              Corporative governance
+            <div className={styles.footer_top_title}>
+              {t('footer.quick_links')}
             </div>
-            <div className={styles.footer_top_list_link}>Dividend Info</div>
+            <Link to="/about" className={styles.footer_top_list_link}>
+              {t('footer.about')}
+            </Link>
+            <Link
+              to="/corporative-governance"
+              className={styles.footer_top_list_link}
+            >
+              {t('footer.governance')}
+            </Link>
+            <Link to="/sustainability" className={styles.footer_top_list_link}>
+              {t('footer.sustainability')}
+            </Link>
           </div>
           <div className={styles.footer_top_list}>
-            <div className={styles.footer_top_title}>Support</div>
-
+            <div className={styles.footer_top_title}>{t('footer.support')}</div>
             <div className={styles.footer_top_list_link}>
-              Terms and conditions
+              {t('footer.terms')}
             </div>
-            <div className={styles.footer_top_list_link}>FAQ</div>
+            <Link to="/faq" className={styles.footer_top_list_link}>
+              {t('footer.faq')}
+            </Link>
           </div>
         </div>
       </div>
@@ -187,8 +209,8 @@ const Footer: React.FC = () => {
           </svg>
 
           <div className={styles.footer_bottom_inside_right}>
-            <a href="/contact">Contact</a>
-            <a href="/contact">Newsletter</a>
+            <a href="/contact">{t('footer.contact')}</a>
+            <a href="/newsletter">{t('footer.newsletter')}</a>
             <div className={styles.footer_bottom_inside_right_lang}>
               <svg
                 width="20"
@@ -207,7 +229,7 @@ const Footer: React.FC = () => {
                   stroke-width="0.7"
                 />
               </svg>
-              English
+              {t('language')}
             </div>
           </div>
         </div>
