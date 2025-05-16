@@ -11,6 +11,11 @@ import Faq from './pages/faq/Faq.tsx';
 import Contact from './pages/contact/Contact.tsx';
 import About from './pages/about/About.tsx';
 import History from './pages/history/History.tsx';
+import Reports from './pages/reports/Reports.tsx';
+import Auditors from './pages/auditors/Auditors.tsx';
+import Consul from './pages/consul/Consul.tsx';
+import Structure from './pages/structure/Structure.tsx';
+import Sustainability from './pages/sustenability/Sustenability.tsx';
 
 export interface RouteConfig {
   path: string;
@@ -75,5 +80,30 @@ export const routesConfig: RouteConfig[] = [
     path: '/:lang/history',
     i18nKey: 'home.title',
     element: React.createElement(History),
+  },
+  {
+    path: '/:lang/reports',
+    i18nKey: 'home.title',
+    element: React.createElement(Reports),
+  },
+  {
+    path: '/:lang/auditors',
+    i18nKey: 'home.title',
+    element: React.createElement(Auditors),
+  },
+  {
+    path: '/:lang/consul',
+    i18nKey: 'home.title',
+    element: React.createElement(Consul),
+  },
+  {
+    path: '/:lang/structure',
+    i18nKey: 'home.title',
+    element: React.createElement(Structure),
+  },
+  {
+    path: '/:lang/sustainability',
+    i18nKey: 'home.title',
+    element: React.createElement(Sustainability),
   },
 ];

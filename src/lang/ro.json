@@ -263,5 +263,216 @@
     },
     "lansare": "Lansarea și primele etape",
     "beginnings": "Începuturi"
+  },
+  "consul": {
+    "title": "Consiliul societății",
+    "council_title": "Membrii Consiliului:",
+    "council_member": "Membru al Consiliului",
+    "president": "Președintele Consiliului",
+    "state_rep": "Reprezentantul Statului",
+    "censors_title": "Membrii Comisiei de Cenzori:",
+    "audit_title": "Membrii Comitetului de Audit:",
+    "audit_president": "Președinte"
+  },
+  "structure": {
+    "breadcrumb": "Structura organizatorică",
+    "title": "Structura organizatorică",
+    "intro": "Structura organizatorică a Societății pe Acțiuni \"Moldtelecom\" este alcătuită din următoarele subdiviziuni:",
+    "advanced": {
+      "title": "Direcția dezvoltare rețele avansate și inovații",
+      "text": "Colegii din această echipă sunt cei care elaborează și realizează planul strategic de dezvoltare..."
+    },
+    "maintenance": {
+      "title": "Direcția operare și mentenanță",
+      "text": "Este abilitată să realizeze strategia S.A.”Moldtelecom” ce ține de întreținerea și exploatarea tehnică..."
+    },
+    "it": {
+      "title": "Departamentul Tehnologii informaționale",
+      "text": "Este responsabil de elaborarea și implementarea strategiei de dezvoltare și modernizare continuă..."
+    },
+    "procurement": {
+      "title": "Direcția Achiziții și Gospodării",
+      "text": "Este subdiviziunea care asigură completarea și aprovizionarea tehnico-materială...",
+      "list": [
+        "asigurarea structurilor companiei cu transport auto, tehnică specială",
+        "funcționarea fiabilă a obiectelor civile și a rețelelor inginerești",
+        "organizarea lucrărilor de construcție și reconstrucție...",
+        "gestionarea Centrului de Instruire și agrement Ivancea",
+        "organizarea alimentației publice",
+        "realizarea planurilor strategice de dezvoltare a rețelelor"
+      ]
+    },
+    "commercial": {
+      "title": "Departamentul Comercial",
+      "text": "Include echipa de Vânzări, Marketing, Customer Care..."
+    },
+    "customer": {
+      "title": "Direcția Customer Care",
+      "text": "Echipa Customer Care face parte din Departamentul Comercial și oferă suport informațional...",
+      "list": [
+        "activarea serviciilor și gestionarea conturilor",
+        "implementarea politicii de retenție",
+        "prevenirea și diminuarea sumelor debitoare",
+        "diminuarea intenției de reziliere",
+        "gestionarea reclamațiilor",
+        "procesarea creanțelor",
+        "suport pentru companii de colectare"
+      ]
+    },
+    "marketing": {
+      "title": "Direcția Marketing",
+      "text": "Echipa de marketing creează strategia și planul de marketing...",
+      "list": [
+        "crearea ofertelor promoționale",
+        "cercetări de marketing",
+        "campanii de promovare",
+        "campanii PR",
+        "fidelizare angajați",
+        "fidelizare clienți",
+        "strategii de retenție"
+      ]
+    },
+    "hr": {
+      "title": "Departamentul HR",
+      "text": "Planifică, dezvoltă și administrează activitățile pentru utilizarea eficientă a resurselor umane."
+    },
+    "legal": {
+      "title": "Direcția juridică și reglementări",
+      "text": "Asigură desfășurarea sigură a activităților companiei din punct de vedere juridic."
+    },
+    "finance": {
+      "title": "Departamentul Finanțe",
+      "text": "Este responsabil de gestionarea contabilă, fiscală și financiară a companiei.",
+      "list": [
+        "organizarea activității financiar-contabile",
+        "urmărirea indicatorilor financiari",
+        "planificarea bugetară",
+        "plata salariilor",
+        "raportarea execuției bugetare",
+        "întocmirea declarațiilor fiscale",
+        "controlul financiar intern"
+      ]
+    },
+    "security": {
+      "title": "Direcția Securitate",
+      "text": "Această direcție are rolul de a administra riscurile și de a asigura controlul intern."
+    },
+    "audit": {
+      "title": "Direcția Audit Intern",
+      "text": "Evaluează eficiența și conformitatea proceselor cu politicile companiei și reglementările."
+    }
+  },
+  "structure": {
+    "breadcrumb": "Structura organizatorică",
+    "title": "Structura organizatorică",
+    "intro": "Structura organizatorică a Societății pe Acțiuni \"Moldtelecom\" este alcătuită din următoarele subdiviziuni:",
+    "advanced": {
+      "title": "Direcția dezvoltare rețele avansate și inovații",
+      "text": "Colegii din această echipă sunt cei care elaborează și realizează planul strategic de dezvoltare a Moldtelecom în ceea ce privește tipurile de rețele de comunicații pentru serviciile de acces la internet în bandă largă, televiziune și telefonie mobilă, modernizarea mijloacelor de comunicații electronice existente în conformitate cu obiectivele companiei și tendințele pieții."
+    },
+    "maintenance": {
+      "title": "Direcția operare și mentenanță",
+      "text": "Este abilitată să realizeze strategia S.A. „Moldtelecom” ce ține de întreținerea și exploatarea tehnică a mijloacelor de comunicații electronice aflate în dotarea și gestiunea companiei și monitorizarea, în regim non-stop, a rețelelor și echipamentelor de telecomunicații din gestiunea companiei, în scopul depistării oportune a deficiențelor de funcționare; localizarea și remedierea operativă a problemelor prin intervenție la distanță; escaladarea problemelor ce necesită intervenții în teren către personalul operativ din teritoriu sau către specialiștii de nivelul doi. Exercită controlul asupra remedierii incidentelor în termenele stabilite, pentru respectarea normelor interne sau impuse de Regulator privind calitatea serviciilor prestate utilizatorului final."
+    },
+    "it": {
+      "title": "Departamentul Tehnologii informaționale",
+      "text": "Este responsabil de elaborarea și implementarea strategiei de dezvoltare și modernizare continuă a tehnologiilor și produselor IT, elaborarea și implementarea softului aplicativ și funcționalităților noi, administrarea și mentenanța sistemelor și echipamentelor care se află în gestiunea departamentului."
+    },
+    "procurement": {
+      "title": "Direcția Achiziții și Gospodării",
+      "text": "Este subdiviziunea care asigură completarea și aprovizionarea tehnico-materială completă și la timp a tuturor subdiviziunilor companiei, a antreprenorilor și dealerilor, fiind responsabilă și de:",
+      "list": [
+        "asigurarea structurilor companiei cu transport auto, tehnică specială",
+        "funcționarea fiabilă a obiectelor civile și a rețelelor inginerești",
+        "organizarea lucrărilor de construcție și reconstrucție a obiectelor de telecomunicații și civile",
+        "gestionarea Centrului de Instruire și agrement Ivancea",
+        "organizarea alimentației publice",
+        "realizarea planurilor strategice de dezvoltare a rețelelor de comunicații electronice prin tehnologii fixe și radioacces"
+      ]
+    },
+    "commercial": {
+      "title": "Departamentul Comercial",
+      "text": "Include echipa de Vânzări, Marketing, Customer Care și echipele de exploatare și instalări. Obiectivul principal este realizarea planului de vânzări pentru produsele și serviciile Moldtelecom, dezvoltarea de noi produse și oferirea unei deserviri impecabile. Activitatea este dinamică, fiind implicată și în promovarea directă a serviciilor prin acțiuni door to door."
+    },
+    "customer": {
+      "title": "Direcția Customer Care",
+      "text": "Echipa interacționează cu clienții și oferă suport informațional. Se ocupă de:",
+      "list": [
+        "activarea serviciilor și gestionarea conturilor",
+        "implementarea politicii de retenție a clienților",
+        "prevenirea și diminuarea sumelor debitoare",
+        "diminuarea intenției de reziliere a contractelor",
+        "examinarea și prelucrarea reclamațiilor",
+        "gestionarea creanțelor",
+        "oferirea suportului pentru companiile de colectare"
+      ]
+    },
+    "marketing": {
+      "title": "Direcția Marketing",
+      "text": "Echipa de marketing stabilește direcțiile strategice ale companiei. Se ocupă de:",
+      "list": [
+        "crearea ofertelor promoționale",
+        "cercetări de piață",
+        "campanii de promovare",
+        "campanii de PR",
+        "proiecte interne pentru fidelizarea angajaților",
+        "programe de fidelizare a clienților",
+        "strategii de retenție"
+      ]
+    },
+    "hr": {
+      "title": "Departamentul HR",
+      "text": "Echipa HR (Human Resource) planifică, dezvoltă și administrează activitățile și programele destinate utilizării cât mai eficiente a resurselor umane ale companiei. Departamentul este responsabil de gestionarea întregului ciclu de viață al angajaților: recrutare, integrare, dezvoltare profesională, evaluarea performanței, precum și de implementarea politicilor și procedurilor interne. De asemenea, HR se ocupă de crearea unui mediu de lucru pozitiv, motivant și echitabil, precum și de inițiativele de fidelizare a angajaților și dezvoltarea culturii organizaționale."
+    },
+    "legal": {
+      "title": "Direcția juridică și reglementări",
+      "text": "Această direcție asigură buna desfășurare a activităților companiei din punct de vedere juridic, prin anticiparea și soluționarea problemelor legate de aplicarea normelor și reglementărilor legale în activitățile comerciale. De asemenea, oferă consultanță juridică tuturor subdiviziunilor companiei, redactează și avizează documente contractuale, reprezintă compania în instanțe și în fața autorităților de reglementare, și contribuie la respectarea conformității cu legislația în vigoare, protejând astfel interesele Moldtelecom."
+    },
+    "finance": {
+      "title": "Departamentul Finanțe",
+      "text": "Este responsabil de gestionarea financiar-contabilă a companiei. Printre atribuții:",
+      "list": [
+        "organizarea activității financiar-contabile conform legii",
+        "monitorizarea indicatorilor financiari și respectarea disciplinei de plan",
+        "întocmirea documentelor de planificare financiară",
+        "plata integrală și la timp a salariilor",
+        "raportarea lunară a execuției bugetare",
+        "prezentarea declarațiilor fiscale și a rapoartelor financiare",
+        "exercitarea controlului financiar preventiv și curent"
+      ]
+    },
+    "security": {
+      "title": "Direcția Securitate",
+      "text": "Această direcție are funcția de administrare a riscurilor și control intern în cadrul companiei. Echipa monitorizează și gestionează riscurile operaționale, strategice și de conformitate pentru a asigura un cadru sigur de funcționare. De asemenea, dezvoltă politici și proceduri de securitate și colaborează cu alte departamente pentru a implementa măsuri preventive și corective."
+    },
+    "audit": {
+      "title": "Direcția Audit Intern",
+      "text": "Are rolul de a evalua și asigura eficiența, eficacitatea și conformitatea cu politicile companiei și cu reglementările aplicabile. Auditul intern furnizează recomandări privind îmbunătățirea proceselor interne, contribuie la prevenirea riscurilor și susține buna guvernanță corporativă prin evaluări independente și obiective."
+    }
+  },
+  "sustainability": {
+    "breadcrumb": "Sustenabilitate",
+    "title": "Sustenabilitatea la Moldtelecom",
+    "intro": "La Moldtelecom, sustenabilitatea este o componentă esențială a strategiei noastre corporative. Ne angajăm să integrăm principiile de mediu, sociale și de guvernanță (ESG) în toate aspectele operațiunilor noastre pentru a asigura crearea de valoare pe termen lung pentru părțile interesate.",
+    "environmental": {
+      "title": "Responsabilitate de Mediu",
+      "text": "Lucrăm activ pentru a minimiza amprenta noastră ecologică prin investiții în tehnologii eficiente energetic, reducerea emisiilor de gaze cu efect de seră și promovarea utilizării surselor de energie regenerabilă. Proiectele noastre de infrastructură sunt concepute cu sustenabilitatea în minte, asigurând conformitatea cu standardele de mediu și contribuind la conservarea resurselor naturale ale Moldovei."
+    },
+    "social": {
+      "title": "Angajament Social",
+      "text": "Inițiativele noastre sociale se concentrează pe îmbunătățirea incluziunii digitale, sprijinirea dezvoltării comunitare și promovarea unui loc de muncă divers și incluziv. Investim în formarea și dezvoltarea angajaților, prioritizăm satisfacția clienților și ne implicăm în activități filantropice care beneficiază comunitățile pe care le deservim."
+    },
+    "governance": {
+      "title": "Guvernanță Puternică",
+      "text": "Moldtelecom respectă cele mai înalte standarde de guvernanță corporativă, asigurând transparență, responsabilitate și practici de afaceri etice. Cadrul nostru de guvernanță se aliniază cu cele mai bune practici internaționale, iar noi ne angajăm să îmbunătățim continuu procesele noastre de conformitate și management al riscurilor."
+    },
+    "initiatives": {
+      "title": "Inițiative de Sustenabilitate",
+      "text": "Am lansat mai multe inițiative menite să promoveze sustenabilitatea, inclusiv implementarea de tehnologii ecologice, programe de reducere a deșeurilor și parteneriate cu organizații dedicate conservării mediului. Aceste eforturi reflectă dedicarea noastră pentru practici de afaceri responsabile și dezvoltare durabilă."
+    },
+    "future": {
+      "title": "Privind Spre Viitor",
+      "text": "Privind spre viitor, Moldtelecom rămâne ferm angajat în ceea ce privește sustenabilitatea. Vom continua să inovăm și să ne adaptăm strategiile pentru a face față provocărilor și oportunităților emergente, asigurându-ne că creșterea noastră contribuie pozitiv la societate și mediu."
+    }
   }
 }

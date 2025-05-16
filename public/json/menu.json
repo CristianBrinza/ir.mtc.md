@@ -17,7 +17,7 @@
         "items": [
           { "label": "navbar.strategy_positioning", "to": "/strategy" },
           { "label": "navbar.products_services", "to": "" },
-          { "label": "navbar.sustainability", "to": "" }
+          { "label": "navbar.sustainability", "to": "/sustainability" }
         ]
       },
       {
@@ -42,7 +42,7 @@
         "items": [
           { "label": "navbar.kpi", "to": "" },
           { "label": "navbar.presentations", "to": "" },
-          { "label": "navbar.reports", "to": "" },
+          { "label": "navbar.reports", "to": "/reports" },
           { "label": "navbar.in_numbers", "to": "" }
         ]
       },
@@ -68,9 +68,9 @@
         "title": "navbar.governance",
         "items": [
           { "label": "navbar.directors_admin", "to": "/directors" },
-          { "label": "navbar.auditors", "to": "" },
-          { "label": "navbar.org_structure", "to": "" },
-          { "label": "navbar.society_consul", "to": "" }
+          { "label": "navbar.auditors", "to": "/auditors" },
+          { "label": "navbar.org_structure", "to": "/structure" },
+          { "label": "navbar.society_consul", "to": "/consul" }
         ]
       },
       {

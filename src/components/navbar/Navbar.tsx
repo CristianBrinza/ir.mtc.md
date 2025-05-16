@@ -100,7 +100,10 @@ const Navbar: React.FC = () => {
             <a href="mailto:ir@moldtelecom.md"> ir@moldtelecom.md</a>
           </div>
           <div className={styles.navbar_inside_bottom}>
-            <Link className={styles.navbar_inside_bottom_home_logo} to={'/'}>
+            <Link
+              className={styles.navbar_inside_bottom_home_logo}
+              to={`/${t('lang')}`}
+            >
               <svg
                 className={styles.navbar_inside_bottom_home_logo_desk}
                 width="218"
@@ -490,6 +493,11 @@ const Navbar: React.FC = () => {
                                   <a
                                     href={sub.to}
                                     key={subIdx}
+                                    target={
+                                      sub.to.includes('files/')
+                                        ? '_blank'
+                                        : undefined
+                                    }
                                     className={
                                       styles.navbar_submenu_inside_link
                                     }

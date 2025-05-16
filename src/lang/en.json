@@ -205,7 +205,7 @@
     "carousel1": {
       "card_title_1": "News\n& Events",
       "card_subtitle_1": "Stay informed with the latest announcements, updates, and milestones from Moldtelecom.",
-      "card_title_2": "Reports\n& Presentations",
+      "card_title_2": "Reports & \nPresentations",
       "card_subtitle_2": "Browse official financial reports, investor materials, and strategic presentations.",
       "card_title_3": "About\nUs",
       "card_subtitle_3": "Learn about Moldtelecom’s history, values, mission, and leadership team.",
@@ -263,5 +263,128 @@
     },
     "lansare": "Launch and Early Milestones",
     "beginnings": "Beginnings"
+  },
+  "consul": {
+    "title": "Society Consul",
+    "council_title": "Members of the Council:",
+    "council_member": "Council Member",
+    "president": "President of the Council",
+    "state_rep": "State Representative",
+    "censors_title": "Members of the Censors Committee:",
+    "audit_title": "Members of the Audit Committee:",
+    "audit_president": "Chairperson"
+  },
+  "structure": {
+    "breadcrumb": "Organizational Structure",
+    "title": "Organizational Structure",
+    "intro": "The organizational structure of the Joint Stock Company \"Moldtelecom\" consists of the following subdivisions:",
+    "advanced": {
+      "title": "Advanced Network Development and Innovation Division",
+      "text": "This team is responsible for developing and implementing the strategic development plan for Moldtelecom in terms of communication network types for broadband internet access, television, and mobile telephony services, and for modernizing existing electronic communication means in accordance with the company’s goals and market trends."
+    },
+    "maintenance": {
+      "title": "Operation and Maintenance Division",
+      "text": "This division is responsible for implementing Moldtelecom’s strategy for the technical maintenance and operation of electronic communication means owned by the company, and for nonstop monitoring of telecom networks and equipment to promptly detect operational issues; remote troubleshooting; escalating field interventions to regional staff or second-level specialists; and ensuring timely incident resolution in compliance with internal rules or regulatory service quality standards."
+    },
+    "it": {
+      "title": "Information Technology Department",
+      "text": "Responsible for developing and continuously modernizing IT technologies and products, implementing new software applications and functionalities, and managing and maintaining the systems and equipment under the department’s administration."
+    },
+    "procurement": {
+      "title": "Procurement and Facilities Division",
+      "text": "This division ensures complete and timely technical-material procurement for all structural subdivisions, contractors, and dealers, and is also responsible for:",
+      "list": [
+        "providing transportation and special equipment for company structures",
+        "reliable operation of civil objects and engineering networks",
+        "organizing construction and reconstruction works for telecom and civil facilities",
+        "managing the Ivancea Training and Recreation Center",
+        "organizing public catering services",
+        "developing strategic plans for electronic communication networks using wired and wireless technologies"
+      ]
+    },
+    "commercial": {
+      "title": "Commercial Department",
+      "text": "Includes the Sales, Marketing, Customer Care teams, and network operation and installation teams. Its main goal is to achieve sales targets for Moldtelecom’s products and services, develop new products, and provide excellent customer service. The team is actively involved in client service processes across the country and in door-to-door service promotion."
+    },
+    "customer": {
+      "title": "Customer Care Division",
+      "text": "This team is part of the Commercial Department and interacts directly with customers, providing informational support. Their responsibilities include:",
+      "list": [
+        "activating services and managing customer accounts",
+        "implementing customer retention policies",
+        "preventing and reducing customer debt",
+        "reducing contract termination intentions",
+        "handling and processing complaints",
+        "managing debt collection processes",
+        "supporting debt collection companies"
+      ]
+    },
+    "marketing": {
+      "title": "Marketing Division",
+      "text": "This team monitors trends and sets the company’s development direction. It is responsible for:",
+      "list": [
+        "creating promotional offers",
+        "conducting market research",
+        "launching promotion campaigns",
+        "developing PR campaigns for company services and image",
+        "implementing internal loyalty programs for employees",
+        "designing customer loyalty policies",
+        "developing retention strategies"
+      ]
+    },
+    "hr": {
+      "title": "HR Department",
+      "text": "The HR (Human Resources) team is responsible for planning, developing, and managing activities and programs designed to ensure the most efficient use of the company's human resources. The department oversees the entire employee lifecycle: recruitment, onboarding, professional development, performance evaluation, and implementation of internal policies and procedures. HR also fosters a positive, motivating, and fair work environment, leads employee engagement initiatives, and helps shape the organizational culture."
+    },
+    "legal": {
+      "title": "Legal and Regulatory Department",
+      "text": "This department ensures the legal integrity of the company’s operations by anticipating and resolving issues related to the application of legal norms and regulations in commercial activities. It also provides legal counsel to all company divisions, drafts and reviews contractual documents, represents Moldtelecom in court and regulatory proceedings, and ensures compliance with current legislation to protect the company’s interests."
+    },
+    "finance": {
+      "title": "Finance Department",
+      "text": "Responsible for the company’s financial, accounting, and tax management. Main duties include:",
+      "list": [
+        "organizing financial and accounting operations according to national law",
+        "monitoring financial indicators and planning discipline",
+        "preparing financial planning documents",
+        "ensuring timely and full salary payments",
+        "reporting monthly on budget execution",
+        "submitting quarterly and annual financial reports, including all tax declarations",
+        "conducting internal financial control—both preventive and operational"
+      ]
+    },
+    "security": {
+      "title": "Security Department",
+      "text": "This department is responsible for risk management and internal control within the company. The team monitors and manages operational, strategic, and compliance risks to ensure a secure operating environment. It also develops security policies and procedures and works with other departments to implement preventive and corrective measures."
+    },
+    "audit": {
+      "title": "Internal Audit Department",
+      "text": "This department is tasked with evaluating and ensuring the efficiency, effectiveness, and compliance of internal processes with company policies and applicable regulations. Internal Audit provides recommendations for improving internal processes, contributes to risk prevention, and supports good corporate governance through independent and objective evaluations."
+    }
+  },
+  "sustainability": {
+    "breadcrumb": "Sustainability",
+    "title": "Sustainability at Moldtelecom",
+    "intro": "At Moldtelecom, sustainability is a core component of our corporate strategy. We are committed to integrating environmental, social, and governance (ESG) principles into all aspects of our operations to ensure long-term value creation for our stakeholders.",
+    "environmental": {
+      "title": "Environmental Responsibility",
+      "text": "We actively work to minimize our environmental footprint by investing in energy-efficient technologies, reducing greenhouse gas emissions, and promoting the use of renewable energy sources. Our infrastructure projects are designed with sustainability in mind, ensuring compliance with environmental standards and contributing to the preservation of Moldova's natural resources."
+    },
+    "social": {
+      "title": "Social Commitment",
+      "text": "Our social initiatives focus on enhancing digital inclusion, supporting community development, and fostering a diverse and inclusive workplace. We invest in employee training and development, prioritize customer satisfaction, and engage in philanthropic activities that benefit the communities we serve."
+    },
+    "governance": {
+      "title": "Strong Governance",
+      "text": "Moldtelecom upholds the highest standards of corporate governance, ensuring transparency, accountability, and ethical business practices. Our governance framework aligns with international best practices, and we are committed to continuous improvement in our compliance and risk management processes."
+    },
+    "initiatives": {
+      "title": "Sustainability Initiatives",
+      "text": "We have launched several initiatives aimed at promoting sustainability, including the deployment of eco-friendly technologies, implementation of waste reduction programs, and partnerships with organizations dedicated to environmental conservation. These efforts reflect our dedication to responsible business practices and sustainable development."
+    },
+    "future": {
+      "title": "Looking Ahead",
+      "text": "As we look to the future, Moldtelecom remains steadfast in our commitment to sustainability. We will continue to innovate and adapt our strategies to meet emerging challenges and opportunities, ensuring that our growth contributes positively to society and the environment."
+    }
   }
 }
